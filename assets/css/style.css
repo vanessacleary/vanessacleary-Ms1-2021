@@ -22,3 +22,7 @@ html {
     justify-content: center;
     position: relative;
   }
+
+  .about {
+      text-align: center;
+  }
