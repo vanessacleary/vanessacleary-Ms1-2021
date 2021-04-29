@@ -10,6 +10,7 @@ html {
     line-height: 20px;
   }
 
+  /* Jumbotron  */
   .jumbotron-section {
     height: 80vh;
     background: url('../images/v-yoga-header-2.jpg') no-repeat fixed;
@@ -39,4 +40,9 @@ html {
 
 .jumbotron-button {
     margin-top: 30px;
+}
+
+/* Meet the team */
+.card {
+  display: inline-flex;
 }
