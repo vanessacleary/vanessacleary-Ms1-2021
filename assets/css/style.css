@@ -10,19 +10,33 @@ html {
     line-height: 20px;
   }
 
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  .jumbotron-section {
+    height: 80vh;
+    background: url('../images/v-yoga-header-2.jpg') no-repeat fixed;
     background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
-    position: relative;
-  }
+    
+}
 
-  .about {
-      text-align: center;
-  }
+.jumbotron-content {
+    background-color: transparent;
+    margin-top: 2rem;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    
+}
+
+.jumbotron-content h1 {
+    font-size: 4rem;
+}
+
+.jumbotron-button {
+    margin-top: 30px;
+}
