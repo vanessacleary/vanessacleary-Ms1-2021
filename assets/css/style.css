@@ -35,14 +35,91 @@ html {
 }
 
 .jumbotron-content h1 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .jumbotron-button {
     margin-top: 30px;
 }
 
+/* About section */
+
+.about-section h2 {
+  font-weight: 800;
+  text-align: center;
+  color: #696969;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.about-section {
+  text-align: center;
+  margin: 70px auto;
+  color: #696969;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+/* how it works section */
+
+.works-section h2{
+  font-weight: 800;
+  text-align: center;
+  color: #696969;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.works-section{
+  background-color: #CBC3E3;
+  margin: 70px auto;
+  text-align: center;
+  color: #696969;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+
 /* Meet the team */
-.card {
+/* .card {
   display: inline-flex;
+} */
+
+.team-section {
+  border-radius: 0;
+  margin-top: 50px;
+	transition: all 0.3 ease-in;
+	-webkit-transition: all 0.3 ease-in;
+	-moz-transition: all 0.3 ease-in;
+}
+.team-section h2{
+  font-weight: 800;
+  text-align: center;
+  color: #696969;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+/* #team img {
+	margin-top: 50px;
+}
+
+#team i {
+	font-size: 26px;
+	color: #555;
+} */
+
+.card-title {
+font-size: 26px;
+color: red;
+text-align:center;
+}
+
+.card-text {
+  font-weight: 500;
+  color: blue;
+  text-align: center;
+}
+
+.btn {
+ color: #fff
 }
