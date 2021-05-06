@@ -38,7 +38,7 @@ html {
   /* Jumbotron  */
   .jumbotron-section {
     height: 80vh;
-    background: url('../images/v-yoga-header-2.jpg') no-repeat fixed;
+    background: url('../images/meditation\ 1.jpg') no-repeat fixed;
     background-size: cover;
     background-position: bottom;
     width: 100%;
@@ -101,7 +101,7 @@ html {
   background-color: #FF8970;
   margin: 20px auto; 
   color: #696969;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
