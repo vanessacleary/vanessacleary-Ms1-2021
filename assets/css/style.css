@@ -81,7 +81,7 @@ html {
 
 .about-section {
   text-align: center;
-  margin: 10px auto; 
+  margin: 20px auto; 
   color: #696969;
   font-size: 22px;
   line-height: 1.4;
@@ -98,11 +98,10 @@ html {
   position: relative;
 }
 .works-section{
-  background-color: #CBC3E3;
-  text-align: center;
-  margin: 10px auto; 
+  background-color: #FF8970;
+  margin: 20px auto; 
   color: #696969;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.4;
 }
 
@@ -133,14 +132,14 @@ html {
 
 .card-title {
   font-size: 16px;
-  color: red;
+  color: #696969;
   text-align: center;
 }
 
 .card-text {
   font-size: 14px;
-  color: green;
-  text-align: center;
+  color: #696969;
+
 }
 
 
