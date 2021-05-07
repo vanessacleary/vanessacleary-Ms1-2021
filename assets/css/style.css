@@ -85,6 +85,7 @@ html {
   color: #696969;
   font-size: 22px;
   line-height: 1.4;
+
 }
 
 /* how it works section */
@@ -103,6 +104,14 @@ html {
   color: #696969;
   font-size: 16px;
   line-height: 1.4;
+}
+
+.works-reasons h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.works-reasons {
+  font-size: 16px;
 }
 
 ul {
