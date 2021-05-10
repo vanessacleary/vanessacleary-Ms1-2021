@@ -99,7 +99,7 @@ html {
   position: relative;
 }
 .works-section{
-  background-color: #F5E0F5;
+  /* background-color: #F5E0F5; */
   margin: 20px auto; 
   color: #696969;
   font-size: 16px;
@@ -157,5 +157,10 @@ ul {
 
 }
 
-
-
+/* dividers */
+.divider-section {
+  width: 20%;               
+  background: #EBC2EB;
+  height: 2px;
+  margin-top: 1rem;
+}
