@@ -1,14 +1,7 @@
 html {
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
   }
-
-  /* body {
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-    font-family: sans-serif;
-    line-height: 20px;
-  } */
 
   body {
     margin: 0;
@@ -19,7 +12,6 @@ html {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    /* text-align: left; */
     background-color: #fff;
   }
 
@@ -62,7 +54,6 @@ html {
     -ms-flex-pack: center;
     justify-content: center;
     /* margin-top: 120px; */
-    
 }
 
 .jumbotron-content {
@@ -86,7 +77,6 @@ html {
 .about-heading {
   font-weight: 400;
   text-align: center;
-  color: #696969;
   font-size: 28px;
   line-height: 1.4;
   position: relative;
@@ -95,7 +85,6 @@ html {
 .about-section {
   text-align: center;
   margin: 20px auto; 
-  /* color: #696969; */
   font-size: 22px;
   line-height: 1.4;
 
@@ -106,7 +95,6 @@ html {
 .works-heading{
   font-weight: 400;
   text-align: center;
-  /* color: #696969; */
   font-size: 28px;
   line-height: 1.4;
   position: relative;
@@ -114,7 +102,6 @@ html {
 .works-section{
   /* background-color: #F5E0F5; */
   margin: 20px auto; 
-  color: #696969;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -138,7 +125,6 @@ ul {
 .team-heading {
   font-weight: 400;
   text-align: center;
-  /* color: #696969; */
   font-size: 28px;
   line-height: 1.4;
   position: relative;
@@ -154,20 +140,17 @@ ul {
 
 .card-body {
   font-size: 18px;
-  color:blue;
-  text-align: center;
+  text-align: left;
 }
 
 .card-title {
   font-size: 16px;
-  color: #696969;
   text-align: center;
 }
 
 .card-text {
   font-size: 14px;
-  color: #696969;
-
+  text-align: left;
 }
 
 /* colors, headings, buttons, spacing, divider */
@@ -197,3 +180,55 @@ ul {
 section {
   padding-top: 5rem;
 }
+
+/* footer */
+
+footer {
+  padding-top: 30px;
+  background-color: #EBC2EB;
+  /* color:  */
+}
+
+footer a {
+  color: black;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted black;
+}
+
+footer .form-control {
+    background-color: #fff;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+/* back to top button */
+#returnToTop {
+  display: none;
+  position: fixed;
+  bottom: 5rem;
+  right: 1.2rem;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
+  background: no-repeat;
+  z-index: 99;
+  padding-bottom: 20px;
+}
+
+#returnToTop:hover {
+  opacity: 1;
+}
+
+.bttt-button,
+.bttt-button:hover {
+  color: #000000;
+}
+
