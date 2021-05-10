@@ -237,3 +237,16 @@ footer .form-control {
   color: #000000;
 }
 
+/* Log-in form */
+
+.form-group {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#log-in-form .form-control {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
