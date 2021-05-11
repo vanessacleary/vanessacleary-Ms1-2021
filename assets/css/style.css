@@ -54,7 +54,8 @@ font-weight: 600;
 
 .jumbotron-custom {
 background-color: #ffffff00;
-color: white;
+/* color: white; */
+color: black;
 }
 
 .jumbotron-content {
@@ -71,16 +72,6 @@ color: white;
 .jumbotron-button {
   margin-top: 30px;
 }
-
-/* About section */
-/* 
-.about-heading {
-font-weight: 400;
-text-align: center;
-font-size: 28px;
-line-height: 1.4;
-position: relative;
-} */
 
 .about-section {
 text-align: center;
@@ -189,16 +180,15 @@ padding-top: 5rem;
 }
 
 
-h2, h3 {
+/* h2, h3 {
 /* color: #6eb9ff; */
-font-weight: 600;
-}
+/* font-weight: 600;
+} */ 
 /* footer */
 
 footer {
 padding-top: 30px;
-background-color: #EBC2EB;
-/* color:  */
+background-color: #ebc2eb4f;
 }
 
 footer a {
@@ -258,6 +248,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/* New team section */
 
 .team-member {
   margin-bottom: 3rem;
@@ -275,4 +266,21 @@ margin-right: auto;
 
 .img-brand {
   height: 2.75rem;
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
 }
