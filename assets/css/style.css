@@ -44,18 +44,17 @@ font-weight: 600;
 .home-section {
   height: 80vh;
   width: 100%;
-  background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url(..assets/images/meditation-1.jpg) no-repeat fixed;
+  background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('..assets/images/meditation.jpg') no-repeat fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  padding-top: 20%;
+  /* padding-top: 20%; */
 }
 
 .jumbotron-custom {
 background-color: #ffffff00;
-/* color: white; */
-color: black;
+color: white;
 }
 
 .jumbotron-content {
@@ -280,3 +279,47 @@ margin-right: auto;
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
 }
+
+@media (min-width: 768px) {
+
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+      display: block;
+  }
+  
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+      transition: none;
+  }
+  
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -25%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+  
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  }
