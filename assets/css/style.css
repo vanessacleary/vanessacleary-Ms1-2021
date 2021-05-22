@@ -193,6 +193,7 @@ padding-bottom: 5rem;
 footer {
 padding-top: 30px;
 background-color: #F2AA98;
+color: #fff;
 }
 
 footer a {
@@ -215,8 +216,18 @@ footer .form-control {
   padding: 0.7em 1em;
 }
 
+.btn-footer {
+	background-color: #fff;
+	border-color: transparent;
+	color: #F2AA98;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px 30px;
+	font-weight: 600;
+}
+
 /* back to top button */
-#returnToTop {
+/* #returnToTop {
 display: none;
 position: fixed;
 bottom: 5rem;
@@ -236,7 +247,7 @@ opacity: 1;
 .bttt-button,
 .bttt-button:hover {
 color: #000000;
-}
+}  */
 
 /* Log-in form */
 
@@ -392,3 +403,28 @@ h2 {
 	background: #fff;		
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
+
+/* social  */
+  .social-networks {
+	text-align: center;
+  }
+  
+  .social-networks > li {
+	display: inline;
+  }
+  
+  .social-networks i {
+	font-size: 140%;
+	margin: 1%;
+	padding: 5%;
+	color: #fff;
+  }
+  .social-networks i:hover{
+	color:#F2AA98;
+  }
+  /* footer p {
+	text-align: center;
+	color: inherit;
+	padding: 0;
+	margin: 0 auto;
+  } */
