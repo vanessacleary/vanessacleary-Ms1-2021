@@ -101,11 +101,17 @@ color: white;
 	height: 2px;
 	margin-top: 1rem;
 	}
+
+	.footer-divider {
+	background: #fff;
+	height: 2px;
+	margin-top: 1rem;	
+	}
 	
 	section {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	}
+	} 
 
 	/* about section */
 	
@@ -125,7 +131,7 @@ color:#fff;
 
 .works-heading{
 font-weight: 400;
-text-align: center;
+/* text-align: center; */
 font-size: 28px;
 line-height: 1.4;
 position: relative;
@@ -144,14 +150,13 @@ font-weight: 400;
 
 .works-reasons {
 font-size: 16px;
-
 }
 
 ul {
 list-style-type: none;
 padding: 0;
 margin: 0;
-}
+} 
 
 /* Meet the team */
 
