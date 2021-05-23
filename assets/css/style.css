@@ -153,7 +153,7 @@ margin: 0;
 
 /* New team section */
 
-.team-member {
+ .team-member {
 	margin-bottom: 3rem;
 	text-align: center;
   }
@@ -170,7 +170,7 @@ margin: 0;
   .img-brand {
 	height: 2.75rem;
   }
-  
+
 
 
 
@@ -201,7 +201,7 @@ margin: 0;
 	width: 14rem;
 	height: 14rem;
 	margin: 0 auto;
-	padding: 5px;
+	/* padding: 5px; */
 	border: 0.5rem solid #fff;
 	border-radius: 50%;
 }
@@ -300,7 +300,6 @@ footer .form-control {
 	border-color: transparent;
 	color: #fff;	
 }
-
 
 
 
