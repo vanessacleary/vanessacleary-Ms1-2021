@@ -160,7 +160,7 @@ margin: 0;
 
 /* Meet the team */
 
-.team-heading {
+/* .team-heading {
 font-weight: 400;
 text-align: center;
 font-size: 28px;
@@ -194,7 +194,7 @@ text-align: left;
 .display-5 {
 font-size: 2.5rem;
 line-height: 1.2;
-}
+} */
 
 /* New team section */
 
@@ -358,12 +358,6 @@ footer .form-control {
 }
 
 
-#log-in-form .form-control {
-width: 60%;
-margin-left: auto;
-margin-right: auto;
-}
-
 
 
 /* social  */
@@ -385,4 +379,50 @@ margin-right: auto;
 	color:#F2AA98;
   }
 
- 
+ /* login form */
+
+ /* #log-in-form .form-control {
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+}  */
+
+.section-heading {
+	margin: 20px auto; 
+	/* font-size: 22px; */
+	line-height: 1.4;
+	color:#F2AA98;
+}
+
+.btn-log-in {
+background-color: #F2AA98;
+border-color: transparent;
+color: white;
+text-transform: uppercase;
+letter-spacing: 2px;
+padding: 15px 30px;
+font-weight: 600;
+	}
+
+.btn-log-in:hover {
+	background-color: #fff;
+	border-color: transparent;
+	color: #F2AA98;
+	}
+
+.divider-section-log-in {
+	width: 100%;
+	background: #F2AA98;
+	height: 2px;
+	margin-top: 1rem;
+}
+
+/* Gallery */
+
+#gallery img {
+    object-fit: cover;
+    object-position: center;
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+}
