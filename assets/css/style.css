@@ -108,16 +108,15 @@ color: white;
 	margin-top: 1rem;	
 	}
 	
-	section {
+	/* section {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	} 
+	}  */
 
 	/* about section */
 	
 .about-section {
 text-align: center;
-margin: 20px auto; 
 font-size: 22px;
 line-height: 1.4;
 } 
@@ -131,13 +130,12 @@ color:#fff;
 
 .works-heading{
 font-weight: 400;
-/* text-align: center; */
+
 font-size: 28px;
 line-height: 1.4;
 position: relative;
 }
 .works-section{
-margin: 20px auto; 
 font-size: 16px;
 line-height: 1.4;
 }
@@ -157,44 +155,6 @@ list-style-type: none;
 padding: 0;
 margin: 0;
 } 
-
-/* Meet the team */
-
-/* .team-heading {
-font-weight: 400;
-text-align: center;
-font-size: 28px;
-line-height: 1.4;
-position: relative;
-}
-
-.team-section {
-margin: auto;
-}
-
-.card {
-display: inline-flex;
-} 
-
-.card-body {
-font-size: 18px;
-text-align: left;
-}
-
-.card-title {
-font-size: 16px;
-text-align: center;
-}
-
-.card-text {
-font-size: 14px;
-text-align: left;
-}
-
-.display-5 {
-font-size: 2.5rem;
-line-height: 1.2;
-} */
 
 /* New team section */
 
@@ -216,23 +176,7 @@ line-height: 1.2;
 	height: 2.75rem;
   }
   
-  .features-icons {
-	padding-top: 7rem;
-	padding-bottom: 7rem;
-  }
-  .features-icons .features-icons-item {
-	max-width: 20rem;
-  }
-  .features-icons .features-icons-item .features-icons-icon {
-	height: 7rem;
-  }
-  .features-icons .features-icons-item .features-icons-icon i {
-	font-size: 4.5rem;
-  }
-  .features-icons .features-icons-item:hover .features-icons-icon i {
-	font-size: 5rem;
-  }
-  
+
 
 
 /* testinomials carousel */
@@ -376,20 +320,13 @@ footer .form-control {
 	color: #fff;
   }
   .social-networks i:hover{
-	color:#F2AA98;
+	color: red;
   }
 
  /* login form */
 
- /* #log-in-form .form-control {
-width: 60%;
-margin-left: auto;
-margin-right: auto;
-}  */
 
 .section-heading {
-	margin: 20px auto; 
-	/* font-size: 22px; */
 	line-height: 1.4;
 	color:#F2AA98;
 }
@@ -411,14 +348,17 @@ font-weight: 600;
 	}
 
 .divider-section-log-in {
-	width: 100%;
+	width:100%;
 	background: #F2AA98;
 	height: 2px;
 	margin-top: 1rem;
+	float:left;
 }
 
 /* Gallery */
-
+gallery {
+    margin: 40px 0;
+}
 #gallery img {
     object-fit: cover;
     object-position: center;
@@ -426,3 +366,16 @@ font-weight: 600;
     height: 400px;
     padding: 5px;
 }
+
+.alert {
+background-color: #F2AA98;
+}
+
+.alert-heading {
+	color: #fff;
+	}
+
+ .alert p {
+	 color: #fff;
+ }
+
