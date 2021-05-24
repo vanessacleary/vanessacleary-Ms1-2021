@@ -20,18 +20,20 @@ text-transform: uppercase;
 letter-spacing: 2px;
 font-size: 24px;
 margin: 10px 0 2px;
-color:#515d5f'
+/* color:#515d5f'  */
 }
 
 .nav-link  {
+color:#F2AA98;
 text-transform: uppercase;
 letter-spacing: 2px;
 font-size: 20px;
 margin: 8px 2px 2px;
+
 } 
 
 .nav-item a:hover {
-color: #F2AA98 !important;
+color: #92374D !important;
 }
 
 .navbar-brand {
