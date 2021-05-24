@@ -20,7 +20,16 @@ text-transform: uppercase;
 letter-spacing: 2px;
 font-size: 24px;
 margin: 10px 0 2px;
-/* color:#515d5f'  */
+color:#F2AA98;
+}
+
+.navbar-brand {
+	font-size: 1.7rem;
+	font-weight: 600;
+	}
+
+.navbar-brand:hover {
+	color: #92374D;
 }
 
 .nav-link  {
@@ -36,10 +45,7 @@ margin: 8px 2px 2px;
 color: #92374D !important;
 }
 
-.navbar-brand {
-font-size: 1.7rem;
-font-weight: 600;
-}
+
 
 /* Jumbotron  */
 
@@ -96,6 +102,7 @@ color: white;
 	height: 2px;
 	margin-top: 1rem;
 	}
+	
 	
 	.divider-section-white {
 	width: 20%;               
@@ -356,10 +363,15 @@ font-weight: 600;
 	float:left;
 }
 
+/* .tick:hover {
+background-color: #92374D;
+} */
+
 /* Gallery */
 gallery {
     margin: 40px 0;
 }
+
 #gallery img {
     object-fit: cover;
     object-position: center;
@@ -367,6 +379,8 @@ gallery {
     height: 400px;
     padding: 5px;
 }
+
+/* alert */
 
 .alert {
 background-color: #F2AA98;
@@ -380,3 +394,10 @@ background-color: #F2AA98;
 	 color: #fff;
  }
 
+ .terms {
+	 color: #fff;
+	 }
+
+.free-trail-alert {
+	text-align: center;
+}

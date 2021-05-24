@@ -25,7 +25,7 @@
     <!-- Nav bar  -->
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="#">Balance</a>
+        <a class="navbar-brand" href="#home">Balance</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,16 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#works">How it works</a>
+                <a class="nav-link" href="index.html">How it works</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
+                <a class="nav-link" href="index.html">Team</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="log-in.html">Login</a>
@@ -54,24 +54,24 @@
  <!-- /Nav bar  -->
 </header>
 
-<section class="py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col alert py-5" role="alert" >
+<section>
+  <div class="container pt-5">
+    <div class="row pt-5">
+      <div class="col-12 alert py-5 free-trail-alert" role="alert">
         <h2 class="alert-heading">Free Trial</h2>
         <p> To avail of the free trail simply register and choose the 30 day free trail membership.</p>
-        <small class="text-muted">T&C's apply</small>
+        <small class="text-muted terms">T&C's apply</small>
       </div>
     </div>
   </div>
  </section>
 
  <section>
-<div class="container">
+<div class="container py-5">
 <div class="row">
   <div class="col-12 col-md-6">
     <h2 class="section-heading text-uppercase"> Log in  </h2>
-    <hr class="divider-section-log-in" />
+    <hr class="divider-section-log-in d-sm-none d-md-block" />
     <form>
       <div class="form-group">
         <label for="input-email">Email address</label>
@@ -86,15 +86,16 @@
       
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="check-box">
-        <label class="form-check-label" for="check-box">Remember me</label>
+        <label class="form-check-label tick" for="check-box">Remember me</label>
       </div>
       <button type="submit" class="btn btn-log-in">Log in</button>
     </form>
+    <br>
 
   </div>
-  <div class="col-6 col-md-6">
+  <div class="col-12 col-md-6">
     <h2 class="section-heading text-uppercase"> Register </h2>
-    <hr class="divider-section-log-in" />
+    <hr class="divider-section-log-in d-sm-none d-md-block" />
     <form>
 
       <div class="form-group">
@@ -119,8 +120,8 @@
         <input type="checkbox" class="form-check-input" id="check-box">
         <label class="form-check-label" for="check-box">Remember me</label>
       </div>
-
-      <button type="submit" class="btn btn-log-in"> Register </button>
+      <button type="button" class="btn btn-log-in" data-toggle="modal" data-target="#register-modal"> Register
+      </button>
     </form>
     </form>
   </div>
@@ -152,7 +153,8 @@
             <input type="checkbox" id="newsletter-permission" name="permission" required>
                           <label for="newsletter-permission" class="user-permission">I consent to receiving content from Yoga X</label>
             <fieldset class="form-group text-xs-right">
-                <button type="button" class="btn btn-footer btn-sm">sign up</button>
+              <button type="button" class="btn btn-footer btn-sm" data-toggle="modal" data-target="#sign-up-modal"> Sign up
+              </button>
             </fieldset>
         </form>
         </div>
@@ -174,7 +176,46 @@
     </div>
   </div>
   </div>
-  </footer>   
+  </footer>  
+<!--Modal for sign button-->
+<div class="modal fade" id="sign-up-modal" tabindex="-1" aria-labelledby="sign-upModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body text-center">
+            Thank you for interest! <span>&#10084;</span>  You will receive our monthly news letter from now on!
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Register modal -->
+<div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="register-ModalLabel"
+ aria-hidden="true">
+ <div class="modal-dialog">
+     <div class="modal-content">
+         <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+         </div>
+         <div class="modal-body text-center">
+             Thank you for registering! <span>&#10084;</span>  You will receive a confirmartion email to confirm your account.
+         </div>
+         <div class="modal-footer">
+             <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+         </div>
+     </div>
+ </div>
+</div>
 
 <!-- Scripts -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
