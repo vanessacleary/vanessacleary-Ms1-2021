@@ -101,9 +101,24 @@ html {
 	  }
 	  .btn-light-blue:hover {
 	  background-color: #92374D;
-	  border-color: transparent;
+	  border-color: #F2AA98;
 	  color: #fff;
 	  }
+
+	  .btn-testimonial {
+		background-color: #fff;
+		border-color: #F2AA98;
+		color: #F2AA98;
+		letter-spacing: 2px;;
+		padding: 15px 30px;
+		font-weight: 600
+	  }
+
+	  .btn-testimonial:hover {
+		background-color: #92374D;
+		border-color: transparent;
+		color: #fff;
+		}
 	  
 	  .divider-section {
 	  width: 20%;               
