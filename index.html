@@ -1,5 +1,6 @@
-<head>
-  html lang="en">
+<!doctype html>
+  <head>
+    <html lang="en">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- https://www.w3schools.com/tags/tag_meta.asp -->
 
-  <title>Yoga X: Online Yoga Classes</title>
+  <title>Balance: Virtual Yoga Classes</title>
   <!-- Google fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <!-- Nav bar  -->
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container">
@@ -88,7 +89,8 @@
       <div class="row pt-5">
         <div class="col-12 text-center">
           <h2 class="section-heading text-uppercase">About</h2>
-          <hr class="divider-section" />
+         <hr class="divider-section" />
+          <!-- <hr class="hr-long"> -->
         </div>
       </div>
       <div class="col-12 text-center pb-5">
@@ -162,11 +164,11 @@
   <!-- /How it works -->
 
   <!-- Meet the team -->
-  <section class="page-section bg-light" id="team">
+  <section class="page-section" id="team">
     <div class="container">
       <div class="text-center py-5">
         <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-        <hr class="divider-section" />
+        <hr class="divider-section"/>
         <h3 class="section-subheading text-muted">Yoga & Meditation Instructors</h3>
 
         <br>
@@ -285,18 +287,17 @@
   <section id="gallery-section">
     <div class="container-fluid">
       <div class="row text-center">
-        <div class="col-6 col-md-3 gallery-col" id="image-1">
+        <div class="col-6 col-md-4 gallery-col" id="image-1"><br>
         </div>
-        <div class="col-6 col-md-3 gallery-col" id="image-2">
+        <div class="col-6 col-md-4 gallery-col" id="image-2">
         </div>
-        <div class="col-6 col-md-3 gallery-col" id="image-3">
+        <div class="col-6 col-md-4 d-none d-md-inline gallery-col" id="image-3">
         </div>
-        <div class="col-6 col-md-3 gallery-col" id="image-4">
+         <!-- <div class="col-6 col-md-3 d-none d-md-inline gallery-col" id="image-4">
         </div>
-      </div>
+      </div>  -->
     </div>
   </section>
-
   <!-- footer -->
   <footer>
     <div class="container">
@@ -311,7 +312,7 @@
         </div>
         <div class="col-12 col-md-6">
           <form>
-            <h3>Join our Monthly newsletter</h3>
+            <h3>Monthly newsletter</h3>
             <hr class="footer-divider">
             <fieldset class="form-group">
               <input type="text" class="form-control" id="name-input" placeholder="Name" required>
