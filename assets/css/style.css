@@ -378,16 +378,16 @@ html {
   #gallery-section {
 	  min-height: 20em;
   }
-  
+
   #gallery-section img {
 	  object-fit: cover;
 	  max-width: 15em;
 	  min-height: 20em;
   }
   
-  #gallery-section .gallery-col {
+ #gallery-section  .gallery-col {
 	  background-size: cover;
-	  height: 20em;
+	  height: 30em;
 	  border: white;
 	  border-style: solid;
   }
