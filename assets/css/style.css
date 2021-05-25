@@ -32,19 +32,37 @@ html {
 	  color: #92374D;
   }
   
-  .nav-link  {
+  .nav-link {
   color:#F2AA98;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 20px;
   margin: 8px 2px 2px;
-  
   } 
   
+  .navbar-light {
+	color:#F2AA98;
+	background-color: #F2AA98;
+  }
+
   .nav-item a:hover {
   color: #92374D !important;
   }
-  
+
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    /* background-color: #fff; */
+    border: 1px solid #F2AA98;
+    border-radius: .25rem;
+}
+
+ span .navbar-toggler-icon {
+	background-color:#F2AA98;
+}
+
+
   /* Rounded images */
   .image-fit-cover {
 	  object-fit: cover;
