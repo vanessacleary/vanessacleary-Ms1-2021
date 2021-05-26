@@ -63,8 +63,6 @@ html {
 	  object-fit: cover;
   }
   
-  
-  
   /* Jumbotron  */
   
   #home-section {
@@ -103,6 +101,10 @@ html {
   }
   
   /* colors, headings, buttons, spacing, divider */
+  .section-heading {
+	line-height: 1.4;
+	color:#F2AA98;
+}
   .btn-light-blue {
 	  background-color: #F2AA98;
 	  border-color: transparent;
@@ -176,6 +178,7 @@ html {
   line-height: 1.4;
   position: relative;
   }
+
   .works-section{
   font-size: 16px;
   line-height: 1.4;
@@ -219,10 +222,9 @@ html {
 	  height: 2.75rem;
 	}
   
+
   
-  
-  
-  /* testinomials carousel */
+  /* Testinomials carousel */
   #testimonial-section{
 	  background-color: #F2AA98;
 	  color:#fff;
@@ -232,9 +234,7 @@ html {
 	  margin: 0 auto;
 	  float: none !important;
   }
-  /* .carousel {
-	  padding: 0 70px;
-  } */
+  
   .carousel .carousel-item {
 	  color:#fff;
 	  font-size: 14px;
@@ -246,7 +246,6 @@ html {
 	  width: 14rem;
 	  height: 14rem;
 	  margin: 0 auto;
-	  /* padding: 5px; */
 	  border: 0.5rem solid #fff;
 	  border-radius: 50%;
   }
@@ -279,7 +278,6 @@ html {
 	  line-height: 42px;
 	  position: absolute;
 	  display: inline-block;
-	  /* color: rgba(0, 0, 0, 0.8); */
 	  color:#fff;
 	  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
   }
@@ -347,7 +345,6 @@ html {
   }
   
   
-  
   /* social  */
 	.social-networks {
 	  text-align: center;
@@ -368,12 +365,6 @@ html {
 	}
   
    /* login form */
-  
-  
-  .section-heading {
-	  line-height: 1.4;
-	  color:#F2AA98;
-  }
   
   .btn-log-in {
   background-color: #F2AA98;
@@ -398,23 +389,20 @@ html {
 	  margin-top: 1rem;
   }
   
-  /* .tick:hover {
-  background-color: #92374D;
-  } */
   
   /* Gallery */
   
-  #gallery-section {
+     #gallery-section {
 	  min-height: 20em;
-  }
+    }
 
-  #gallery-section img {
+    #gallery-section img {
 	  object-fit: cover;
 	  max-width:15em;
 	  min-height: 20em;
-  } *
+     }
   
- #gallery-section  .gallery-col {
+    #gallery-section  .gallery-col {
 	  background-size: cover;
 	  height: 30em;
 	  border: white;
@@ -424,13 +412,13 @@ html {
 	#gallery-section #image-1 {
 	  background-image: url('../images/gallery-4.jpg'); 
   }
-  #gallery-section #image-2 {
+    #gallery-section #image-2 {
 	  background-image: url('../images/gallery-6.JPG'); 
   }
-  #gallery-section #image-3 {
+    #gallery-section #image-3 {
 	  background-image: url('../images/gallery-7.JPG'); 
   }
-   #gallery-section #image-4 {
+    #gallery-section #image-4 {
 	  background-image: url('../images/gallery-11.JPG'); 
   }  
 
@@ -455,18 +443,9 @@ html {
 	  text-align: center;
   }
 
-
-/* .hr-long {
-	/* background: rgb(242,170,152);
-	background: radial-gradient(circle, rgba(242,170,152,1) 23%, rgba(146,55,77,0.5499241933101365) 91%); */
-	/* background: rgb(242,170,152);
-	background: radial-gradient(circle, rgba(242,170,152,1) 34%, rgba(146,55,77,0.2530054258031338) 100%);
-    height: 2px;
-    width: 40%;             
-	margin-top: 1rem;
-} */ 
-
   
+/* Media querys */
+
 @media (min-width: 576px) {
   #img-3 { display:none;
  }
