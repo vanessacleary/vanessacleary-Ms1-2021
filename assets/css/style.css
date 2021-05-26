@@ -443,6 +443,18 @@ html {
 	  text-align: center;
   }
 
+
+  /* Modal */
+
+  .btn-modal {
+	background-color: #F2AA98;
+	border-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px 30px;
+	font-weight: 600;
+  }
   
 /* Media querys */
 
