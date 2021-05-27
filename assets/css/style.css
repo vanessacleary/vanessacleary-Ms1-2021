@@ -412,7 +412,7 @@ html {
   
     #gallery-section  .gallery-col {
 	  background-size: cover;
-	  height: 30em;
+	  height: 40em;
 	  border: white;
 	  border-style: solid;
   }
@@ -421,7 +421,7 @@ html {
 	  background-image: url('../images/gallery-4.jpg'); 
   }
     #gallery-section #image-2 {
-	  background-image: url('../images/gallery-6.JPG'); 
+	  background-image: url('../images/gallery-8.JPG'); 
   }
     #gallery-section #image-3 {
 	  background-image: url('../images/gallery-7.JPG'); 
@@ -470,6 +470,11 @@ html {
   #img-3 { display:none;
  }
 }
+
+@media (min-width: 768px) {
+	#img-3 { display:none;
+   }
+  }
 
 @media only screen and (max-width: 576px) {
 	.log-in-center { text-align: center; }
