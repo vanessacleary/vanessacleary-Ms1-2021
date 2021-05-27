@@ -173,7 +173,6 @@ html {
   
   .works-heading{
   font-weight: 400;
-  
   font-size: 28px;
   line-height: 1.4;
   position: relative;
@@ -196,12 +195,21 @@ html {
   
   ul {
   list-style-type: none;
+  list-style-position: outside; 
   padding: 0;
   margin: 0;
-  vertical-align: middle;
-  } 
+  }  
+.list-group-item{
+	background-color: #F2AA98;
+}
 
-
+/* .card-lines {
+	border: 0px;
+}
+.list-group-item {
+	border: 0px;
+	position: center;
+} */
   /* New team section */
   
    .team-member {
