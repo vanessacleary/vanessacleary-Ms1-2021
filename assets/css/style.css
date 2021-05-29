@@ -310,8 +310,15 @@ html {
   background-color: #D05353;
   color: #fff;
   }
+  #email-address {
+  color: #fff; 
+}
+
+  #phone-number {
+	  color: #fff;
+  }
   
-  
+
   /* social  */
 	.social-networks {
 	  text-align: center;
