@@ -1,9 +1,9 @@
-# Miletsone Project 1 | Balance - Virtual Yoga & Meditation Classes
+## Miletsone Project 1 | Balance - Virtual Yoga & Meditation Classes
 Balance is an online yoga and meditation class service. It is just over 12 months old and looking to grow its customer base.
 
 Balance was created as a direct response to the Covid-19 pandemic when all in person classes were cancelled. Balance is now a commercial business looking to expand its client base and compete in the virtual yoga class market on both price and offering.
 
-# User Expierence - UX
+## User Expierence - UX
 
 ### Site Goals
 **Site Owners Goal:** 
@@ -23,27 +23,27 @@ As a First Time Visitor, I want to easily be able to sign up for a free trial to
 As a First Time Visitor I want to easily see the price for the membership
 
 **A Returning Visitor Goals:**
-As a returning visitor, I want to easily be reminded what Balance is about and how it works.
-As a returning visitor, I want to easily be able to register.
-As a returning visitor, I want to easily be able to contact Balance for any questions or quarts I may have.
-As a returning user, I want to easily see up to testimonials of members.
+1. As a returning visitor, I want to easily be reminded what Balance is about and how it works.
+2. As a returning visitor, I want to easily be able to register.
+3. As a returning visitor, I want to easily be able to contact Balance for any questions or quarts I may have.
+4. As a returning user, I want to easily see up to testimonials of members.
 
-A Member Returning Goals
-As a member, I want to easily log-in to Balance to see the class schedule.
-As a member, I want to easily log-in to Balance to take a class.
-As a member, I want to easily see contact information.
+**A Member Returning Goals:**
+1. As a member, I want to easily log-in to Balance to see the class schedule.
+2. As a member, I want to easily log-in to Balance to take a class.
+3. As a member, I want to easily see contact information.
 
-# Design:
+## Design:
 
 **Wireframes**
 
-Desktop home page wireframe can be found here
+[Desktop home page wireframe can be found here](. ./wireframes/desktop-homepage.png)
 
-Desktop log-in page wireframe can be found here
+[Desktop log-in page wireframe can be found here](. ./wireframes/desktop-login.png)
 
-Mobile home page wireframe can be found here
+[Mobile home page wireframe can be found here](. ./wireframes/mobile-homepage.png)
 
-Moboile log-in page wire frame can be found here
+[Mobile log-in page wire frame can be found here](. ./wireframes/homepage-login.png)
 
 **Colors**
 
@@ -60,12 +60,12 @@ Moboile log-in page wire frame can be found here
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
 The project uses HTML5 to make up the basic elements and structure of the website.
 
-[CSS3] (https://developer.mozilla.org/en-US/docs/Web/CSS)
+[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 I have used CSS3 to add my own custom styling and to change default bootstrap styling where and when needed.
 
 ### Frameworks, Libraries and Programs Used
 
-[Bootstrap 4.6] (https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+[Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 The Bootstrap framework was used to help build the responsive structure of the site and add default styling.
 It was also used to import JavaScript and Jquery which was used for the pop up modal sign up form and the collapsible navbar.
 
@@ -81,32 +81,32 @@ Font Awesome was used on both pages on the website to add icons for aesthetic UX
 [jQuery](https://en.wikipedia.org/wiki/JQuery)
 jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 
-Git
+[Git](https://www.gitpod.io/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-GitHub:
+[GitHub](https://github.com/)
 GitHub is used to store the project's code after being pushed from Git.
 
 
-Balsamiq:
+[Balsamiq](https://balsamiq.com/)
 Balsamiq was used to create the wireframes during the design process.
 
-Google Chrome Developer Tools
+[Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
 I used Google chromes built in developer tools to help with the styling of the site, selecting colors and to troubleshoot any bugs I found.
 
 [Am I responsive](http://ami.responsivedesign.is/)
 This was used to check responsiveness on different screen sizes and create the showcase image for the project.
 
-Google Lighthouse
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 I used Google lighthouse to test the performance of my site.
 
-# Testing
+## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 W3C Markup Validator - Results
 W3C CSS Validator - Results
 
-# Deployment
+## Deployment
 
 ### GitHub pages
 
@@ -114,4 +114,4 @@ W3C CSS Validator - Results
 
 ### Making a clone
 
-# Acknowledgements
+## Acknowledgements
