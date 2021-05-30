@@ -51,9 +51,17 @@ As a First Time Visitor I want to easily see the price for the membership
 
 **Imagery** 
 
-# Features
+## Features
 
-#Technologies used
+## Future Features
+
+**As I progress with my programming studies I would like add:**
+
+1. Confirmation emails when a user registers to Balance 
+2. Confirmation emails when a user signs up to the news letter
+3. A chat bot for instant chat to answer any queries and give additional information or to chat to a team member
+
+## Technologies used
 
 ### Languages used
 
@@ -100,18 +108,61 @@ This was used to check responsiveness on different screen sizes and create the s
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 I used Google lighthouse to test the performance of my site.
 
+[The W3C Markup Validation Service](https://validator.w3.org/)
+
+[The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
+
 ## Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate both pages of the project to ensure there were no syntax errors in the project.
 
 W3C Markup Validator - Results
 W3C CSS Validator - Results
 
+### Known issues and Bugs
+
+1. The bottom of second gallery image cuts of on large screens
+2. The gallery images overlap on iPda screens with screen size 768x1024 when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
+3. The Nav bar was causing an issue. When a navlink was click it would navigate to the correct section however the Navbar would cover the section heading. 
+
+
 ## Deployment
+
+**Creating Repository**
+1. I created the repository using the following steps:
+
+2. I logged into my GitHub account and clicking the green button near the top left of the page displaying the text NEW.
+
+3. This took me to a page with the option to create a new repository. Under the repository template I clicked on the code institute template. 
+
+4. I chose a name for the repository and then clicked the create repository button.
+
+5. I opened the new repository and clicked the green gitpod button to create a new workspace in Git Pod for writing and editing my code to develop the website.
 
 ### GitHub pages
 
+**My project was deployed to GitHub pages using the following steps:**
+
+1. I logges in to my GitHub account and opened the relevant repository.
+2. I clicked on the settings button
+3. In settings scroll down to the GitHub 'pages' tab.
+4. Under source I clicked the dropdown button labelled None and selected Master Branch.
+5. The page will automatically refresh itself and after a few moments the published site link will be available to click on the GitHub Page section.
+
 ### Forking the GitHub Repository
+1. Log in to GitHub and locate the GitHub Repository(https://github.com/vanessacleary/vanessacleary-Ms1-2021)
+2. At the top of the Repository just above the "Settings" Button on the menu, locate the "Fork" Button and click.
+3. This will provide you with a copy of the original repository in your GitHub account.
 
 ### Making a clone
+1. To make a clone of my project use the following steps.
+2. Go to my account and locate the relevant repository.
+3. Next to the green Gitpod button, click on CODE.
+4. Click on Download Zip.
+5. Once downloaded, you can extract the zip file's contents and save to a desktop and run the website locally.
+
 
 ## Acknowledgements
+1. Code Institute for providing endless help and resources to get me this far
+2. My mentor Reubem for the help and patience to guide me through my first project.
+3. The Mini Feb 2021 group, wider slack community and the tutors for all the help support and feedback for the last couple of weeks. 
+4. Friends and Family who have taken their time to offer advice and feedback during the development of my project.
