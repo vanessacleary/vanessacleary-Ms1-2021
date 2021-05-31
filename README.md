@@ -12,7 +12,7 @@
     * [A Returning Visitor Goals](A-Returning-Visitor-Goals)
     * [A Member Returning Goals](A-Member-Returning-Goals)
 * [Design](#Design)
-    * [Wireframes]#(Wireframes)
+    * [Wireframes](#Wireframes)
     * [Colors](#Colors)
     * [Typography](#Typography)
     * [Imagery](#Imagery)
@@ -67,13 +67,13 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 **Wireframes**
 * I mainly stuck to the wireframe designs, all changes that were made were to improve the website user expierence and aesthetic.
 
-  * Desktop home page wireframe can be found ![here](. ./docs/wireframes/desktop-homepage.png)
+  * Desktop home page wireframe can be found [here](/docs/wireframes/desktop-homepage.png)
 
-  * Desktop log-in page wireframe can be found ![here](. ./docs/wireframes/desktop-login.png)
+  * Desktop log-in page wireframe can be found [here](/docs/wireframes/desktop-login.png)
 
-  * Mobile home page wireframe can be found ![here](. ./docs/wireframes/mobile-homepage.png)
+  * Mobile home page wireframe can be found [here](/docs/wireframes/mobile-homepage.png)
 
-  * Mobile log-in page wire frame can be found ![here](. ./docs/wireframes/mobile-login.png)
+  * Mobile log-in page wire frame can be found [here](/docs/wireframes/mobile-login.png)
 
 **Colors**
 
@@ -89,8 +89,8 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 
 ## Features
 
-* The entire site is responsive for all screen sizes and both pages have the same Navbar and Footer.
-* The website was created using Bootstraps grid system.
+<p>The entire site is responsive for all screen sizes and both pages have the same Navbar and Footer.
+The website was created using Bootstraps grid system.</p>
 
 **The website has 2 pages:**
 
@@ -100,7 +100,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 **Features:**
 
 ### Homepage 
-1. A **'nav bar'**
+1. A  fully responsive **'nav bar'** 
 2. A hero image with the price per month and a strong CTA. The 'Free Trial' CTA is essential to capture the attention of visitors who are hesitant to switch to online yoga. 
 2. The **‘About’** section is key for visitors to understand how the company was created and the direction Balance is going in. It also is inviting as it showcases the different styles of yoga available and the lifestyle demographics of memebers. The ‘Testimonial’ CTA is a key feature here to draw the visitors attention to how much current members love Balance.
 3. The **‘How it Works’** section is key for visitors to get a snapshot of how Balance works and what is on offer.
@@ -139,7 +139,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 **Section 5: Testimonials**
 * This section is to inform visitors of how current members feel about Balance and help consumers make an informed decision. The carousel was one feature I wanted  to incorporate on the website to bring the website to life with some movement. 
 
-![Testimonial section](/docs/features/testimonials-section.JPG)
+![Testimonial section](/docs/features/testimonial-section.JPG)
 
 **Section 6: Gallery**
 * The gallery was planned for in the project inception when the wire frames were created. Its purpose is to make the website visually pleasing and showcase some of the more common poses that are practiced at Balance. In order to reduce the scroll depth on mobile only two images will appear.
