@@ -1,4 +1,26 @@
+## Table of Contents
+1. Project Goals
+1. User Expierence
+ 1. Site owner goals
+ 1. User Stories
+ 1. First Time Visitor Goals
+ 1. A Returning Visitor Goals
+ 1. A Member Returning Goals
+1. Design
+ 1. Wireframes
+ 1. Colors
+ 1. Typography
+ 1. Imagery
+1. Features
+1. Technologies 
+ 1. Languages
+ 1. Frameworks & Tools
+1. Testing
+1. Deployment
+1. Credits
+
 ## Miletsone Project 1 | Balance - Virtual Yoga & Meditation Classes
+
 Balance is an online Yoga and Meditation class platform. It is just over 12 months old and looking to grow its membership base.
 
 Balance was created as a direct response to the Covid-19 pandemic when all in person classes were cancelled. Balance is now a commercial business looking to expand its membership base and compete in the virtual yoga class market on both price and offering.
@@ -46,7 +68,8 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * Mobile log-in page wire frame can be found ![here](/docs/wireframes/homepage-login.png)
 
 **Colors**
-I created a colour scheme of red and white with shades of apricot to for clickable elements on the website. I chose to keep the website crisp and clean with block colors. As the website is a membership service I wantes to ensure key information was not missed and there was little distractions on the website. 
+
+* I created a colour scheme of red and white with shades of apricot to for clickable elements on the website. I chose to keep the website crisp and clean with block colors. As the website is a membership service I wantes to ensure key information was not missed and there was little distractions on the website. 
 
 **Typography** 
 
