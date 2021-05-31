@@ -1,20 +1,20 @@
 ## Table of Contents
 1. Project Goals
 1. User Expierence
- 1. Site owner goals
- 1. User Stories
- 1. First Time Visitor Goals
- 1. A Returning Visitor Goals
- 1. A Member Returning Goals
+  1. Site owner goals
+  1. User Stories
+  1. First Time Visitor Goals
+  1. A Returning Visitor Goals
+  1. A Member Returning Goals
 1. Design
- 1. Wireframes
- 1. Colors
- 1. Typography
- 1. Imagery
+  1. Wireframes
+  1. Colors
+  1. Typography
+  1. Imagery
 1. Features
 1. Technologies 
- 1. Languages
- 1. Frameworks & Tools
+  1. Languages
+  1. Frameworks & Tools
 1. Testing
 1. Deployment
 1. Credits
@@ -65,7 +65,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 
 * Mobile home page wireframe can be found ![here](/docs/wireframes/mobile-homepage.png)
 
-* Mobile log-in page wire frame can be found ![here](/docs/wireframes/homepage-login.png)
+* Mobile log-in page wire frame can be found ![here](/docs/wireframes/mobile-login.png)
 
 **Colors**
 
@@ -87,9 +87,11 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * The website was created using Bootstraps grd system.
 
 **Features:**
+
+### Homepage 
 1. A hero image with the price per month and a strong CTA. The 'Free Trial' CTA is essential to capture the attention of visitors who are hesitant to switch to online yoga. 
 2. The ‘About’ section is key for visitors to understand how the company was created and the direction Balance is going in. It also is inviting as it showcases the different styles of yoga available and the lifestyle demographics of memebers. The ‘Testimonial’ CTA is a key feature here to draw the visitors attention to how much current members love Balance.
-3. The ‘How it Works’ section is key for visitors to get a snapshot of how Balance works and what is on offer,
+3. The ‘How it Works’ section is key for visitors to get a snapshot of how Balance works and what is on offer.
 4. The ‘Meet the Team’ section is an essential feature to draw the visitor's attention to the instructors, its purpose is to let visitors know who will be hosting the classes and that they are real people behind the virtual class. 
 5. The ‘Testimonial’ section is one of the most important features. Reviews and Testimonials are growing more and more important as consumers are more savvy than ever when it comes to spending money and want to know they are receiving a quality product or service. 
 6. The gallery was added for aesthetic purposes and demonstrates the yoga moves that are included in the classes
@@ -99,13 +101,11 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * I chose a less striking image for the hero image as I wanted the Balance concept, price and free trail CTA to be the first thing visitors see. I had tested other images and they took away from the key information. The current image was still distracting however adding a shadowed overlay helped mute out the image and draw more attention to the key information and CTA. 
 
 ![Hero section](/docs/features/hero-image.JPG)
-Format: ![Hero section](/docs/features/hero-image.JPG)
 
 **Section 2:**
 * The ‘About’ section is an information section, detailing how Balance was formed, the target audience, the different styles of Yoga and Meditation available and direction Balance is going in. The ‘Here what our members have to say’ button is an essential CTA to draw visitors' attention to how much current members love Balance. The copy was created by me.
 
 ![About section](/docs/features/about-section.JPG)
-Format: ![About section](/docs/features/hero-image.JPG)
 
 **Section 3 - How it works:**
 
@@ -116,25 +116,32 @@ Format: ![About section](/docs/features/hero-image.JPG)
   * The icons in the heading are also visual aids for visitors who may need them. The icons were made responsive using hover.css to add some movement to the site.
   * The copy was written by me. 
 
+![How it works section](/docs/features/how-it-works-section.JPG)
+
 **Section 4 - Meet the Team:**
 * Having the team on the home page is essential for visitors to know who will be guiding their Yoga and Meditation practice. It also states the combined year of teaching experience and information on how to login and where to view the class information. 
+![Meet the team section](/docs/features/team-section.JPG)
 
 **Section 5 - Testimonials**
 * This section is to inform visitors of how current members feel about Balance and help consumers make an informed decision. The carousel was one feature I wanted  to incorporate on the website to bring the website to life with some movement. 
+![Testimonial section](/docs/features/testimonial-section.JPG)
 
 **Section 6 - Gallery**
 * The gallery was planned for in the project inception when the wire frames were created. Its purpose is to make the website visually pleasing and showcase some of the more common poses that are practiced at Balance. In order to reduce the scroll depth on mobile only two images will appear.
+![Gallery section](/docs/features/gallery-section.JPG)
 
-**Section 7 - The footer**
+**Section 7 - The footer on both homepage and login and register page**
 * The footer ended up being different to the wireframe. A newsletter sign up form is a better feature than a contact form for an online business. It is easy to sign up and helps Balance build brand awareness and reach consumers in their inbox.The contact information is hyperlinked for good user experience and one-click step to make contact on mobile and email.The social media icons bring visitors to all their channels so users can get further information and see the content and followings on each platform.  
+![Footer section](/docs/features/footer-section.JPG)
 
-**Login and Register page**
+### Login and Register page
 
 **Section 1 - Alert box**
 * The alert box informs users how to avail of the free trial, it serves as a further prompt for users to register.
 
 **Section 2 - Login and registration forms**
 * I decided to keep this page clear, concise and fuss free. This section has two clear forms and directs users to which form they need. The login form is for existing members and the registration form is for new members to sign up. The fixed-top Navbar directs visitors back to the home page to re-look at any information if they wish.
+
 
 ## Future Features
 
