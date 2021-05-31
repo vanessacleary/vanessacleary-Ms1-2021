@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 html {
 	scroll-behavior: smooth;
 	-webkit-overflow-scrolling: touch;
@@ -5,12 +6,16 @@ html {
   
   body {
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 1rem;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1.5;
 	color: #515d5f;
 	background-color: #fff;
+  }
+
+  h2 {
+	  font-size: 1.8rem;
   }
 
   /* Nav bar */
@@ -18,7 +23,7 @@ html {
   .navbar-brand {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 24px;
+  font-size: 1.5px;
   margin: 10px 0 2px;
   color: #D05353 !important;
   }
@@ -29,19 +34,19 @@ html {
 	  }
   
   .navbar-brand:hover {
-	  color: #F2B880 !important;
+	  color: #F9AB55 !important;
   }
   
   .nav-link {
   color:#D05353 !important;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 8px 2px 2px;
   } 
   
   .nav-item a:hover {
-  color: #F2B880!important;
+  color: #F9AB55 !important;
   }
  
  .navbar-toggler {
@@ -74,10 +79,6 @@ html {
 	background-attachment: scroll;
 	background-size: cover;
   }
-  /* 
-  #home-container-fluid {
-	  padding-top: 5em;
-  } */
   
    .jumbotron-custom {
   background-color: #ffffff00;
@@ -117,7 +118,7 @@ html {
 	  }
 
 	.btn-main-pink:hover {
-	  background-color: #F2B880;
+	  background-color: #F9AB55;
 	  border-color: transparent;
 	  color: #D05353;
 	  }
@@ -133,20 +134,10 @@ html {
 	}
 	
 	.btn-footer:hover {
-		background-color: #F2B880;
+		background-color: #F9AB55;
 		border-color: transparent;
 		color: #D05353;
 	} 
-
-	.btn-modal {
-		background-color: #D05353;
-		border-color: transparent;
-		color: white;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		padding: 15px 30px;
-		font-weight: 600;
-	  }
 
 /* -------------------------------------- dividers */
 	  .divider-section-pink {
@@ -181,7 +172,6 @@ html {
 	  
   .about-section {
   text-align: center;
-  font-size: 22px;
   line-height: 1.4;
   } 
   
@@ -194,7 +184,6 @@ html {
   
   .works-heading{
   font-weight: 400;
-  font-size: 28px;
   line-height: 1.4;
   position: relative;
   }
@@ -239,7 +228,6 @@ html {
   
   .carousel .carousel-item {
 	  color:#fff;
-	  font-size: 14px;
 	  text-align: center;
 	  overflow: hidden;
 	  min-height: 290px;
@@ -276,7 +264,7 @@ html {
 	  background: none;
   }
   .carousel-control-prev i, .carousel-control-next i {
-	  font-size: 3rem;
+	  font-size: 2.5rem;
 	  line-height: 42px;
 	  position: absolute;
 	  display: inline-block;
@@ -314,10 +302,12 @@ html {
   color: #fff; 
 }
 
-  #phone-number {
+  #phone-number-ire {
 	  color: #fff;
   }
-  
+  #phone-number {
+	color: #fff;
+}
 
   /* social  */
 	.social-networks {

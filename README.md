@@ -41,7 +41,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 *  As a First Time Visitor, I want to be able to easily navigate throughout the site to find the information I need easily know how it works and how to sign up.
 * As a First Time Visitor, I want asily know how it works and how to sign up.
-*  As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+* As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 *  As a First Time Visitor, I want to easily be able to sign up for a free trial to get an idea of what the membership is like.
 *  As a First Time Visitor, I want to easily see the price for the membership.
 
@@ -74,6 +74,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 **Typography** 
 
 **Imagery** 
+All images on the website are of professional quality and fully licensed. Please see 'Credits' section for more information on licenses.
 
 ## Features
 
@@ -81,10 +82,10 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 1. Homepage  
 2. Login/register page
 
-* The homepage had seven sections.
+* The homepage has seven sections.
 * The login/register page has three sections.
 * The entire site is responsive for all screen sizes and both pages have the same Navbar and Footer.
-* The website was created using Bootstraps grd system.
+* The website was created using Bootstraps grid system.
 
 **Features:**
 
@@ -124,7 +125,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 
 **Section 5 - Testimonials**
 * This section is to inform visitors of how current members feel about Balance and help consumers make an informed decision. The carousel was one feature I wanted  to incorporate on the website to bring the website to life with some movement. 
-![Testimonial section](/docs/features/testimonial-section.JPG)
+![Testimonial section](/docs/features/testimonials-section.JPG)
 
 **Section 6 - Gallery**
 * The gallery was planned for in the project inception when the wire frames were created. Its purpose is to make the website visually pleasing and showcase some of the more common poses that are practiced at Balance. In order to reduce the scroll depth on mobile only two images will appear.
@@ -141,7 +142,6 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 
 **Section 2 - Login and registration forms**
 * I decided to keep this page clear, concise and fuss free. This section has two clear forms and directs users to which form they need. The login form is for existing members and the registration form is for new members to sign up. The fixed-top Navbar directs visitors back to the home page to re-look at any information if they wish.
-
 
 ## Future Features
 
@@ -176,7 +176,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * [Font Awesome](https://fontawesome.com/)
    * Font Awesome was used on both pages on the website to add icons for aesthetic UX purposes and visual aid purposes. 
 
-* jQuery](https://en.wikipedia.org/wiki/JQuery)
+* [jQuery](https://en.wikipedia.org/wiki/JQuery)
    * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 
 * [Git](https://www.gitpod.io/)
@@ -202,7 +202,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
 ## Testing
-The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/ were used to validate both pages of the project to ensure there were no syntax errors in the project.
+The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate both pages of the project to ensure there were no syntax errors in the project.
 
 * W3C Markup Validator - [Results]
 * W3C CSS Validator - [Results]
@@ -245,7 +245,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
 5. Once downloaded, you can extract the zip file's contents and save to a desktop and run the website locally.
 
 ## Acknowledgements
-1. Code Institute for providing endless help and resources to get me this far
-2. My mentor Reubem for the help and patience to guide me through my first project.
-3. The Mini Feb 2021 group, wider slack community and the tutors for all the help support and feedback for the last couple of weeks. 
-4. Friends and Family who have taken their time to offer advice and feedback during the development of my project.
+*  Code Institute for providing endless help and resources to get me this far
+* My mentor Reubem for the help and patience to guide me through my first project.
+* The Mini Feb 2021 group, wider slack community and the tutors for all the help support and feedback for the last couple of weeks. 
+* Friends and Family who have taken their time to offer advice and feedback during the development of my project.
