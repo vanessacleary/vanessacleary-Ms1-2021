@@ -8,9 +8,9 @@
 * [User Expierence](#User-Expierence)
     * [Site owner goals](#site-goals)
     * [User Stories](#User-Stories)
-    * [First Time Visitor Goals](First-Time-Visitor-Goals)
-    * [A Returning Visitor Goals](A-Returning-Visitor-Goals)
-    * [A Member Returning Goals](A-Member-Returning-Goals)
+    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+    * [A Returning Visitor Goals](#A-Returning-Visitor-Goals)
+    * [A Member Returning Goals](#A-Member-Returning-Goals)
 * [Design](#Design)
     * [Wireframes](#Wireframes)
     * [Colors](#Colors)
@@ -80,7 +80,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * I created a colour scheme of Indian red and White with shades of apricot to for clickable elements on the website. I chose to keep the website crisp and clean with block colors. As the website is a membership service I wanted to ensure key information was not missed and there was very little distractions on the website. 
 
 **Typography** 
-* I chose Nunito from Google Fonts. I chose this font because:
+* I chose 'Nunito' from Google Fonts. I chose this font because:
   * The soft and curvy form works well with the brand name, its playful and suits the softer and artistic vibe that Yoga and Meditation has.
   * It's also a sans-serif font which is more accessible for people with dyslexia. Sans-serif is the back-up font if Nunito fails.
 
@@ -94,13 +94,13 @@ The website was created using Bootstraps grid system.</p>
 
 **The website has 2 pages:**
 
-1. Homepage (seven sections)
-2. Login/Register page (three sections)
+1. [Homepage](https://vanessacleary.github.io/vanessacleary-Ms1-2021/) (seven sections)
+2. [Login/Register page](https://vanessacleary.github.io/vanessacleary-Ms1-2021/log-in.html) (three sections)
 
 **Features:**
 
 ### Homepage 
-1. A  fully responsive **'nav bar'** 
+1. A  fully responsive **'nav bar'** for users to nagivate through the website easily. [desktop](/docs/features/nav-bar.JPG) & [mobile 1](/docs/features/navbar-mobile.JPG) & [mobile 2](/docs/features/nav-bar-mobilep-2.JPG)
 2. A hero image with the price per month and a strong CTA. The 'Free Trial' CTA is essential to capture the attention of visitors who are hesitant to switch to online yoga. 
 2. The **‘About’** section is key for visitors to understand how the company was created and the direction Balance is going in. It also is inviting as it showcases the different styles of yoga available and the lifestyle demographics of memebers. The ‘Testimonial’ CTA is a key feature here to draw the visitors attention to how much current members love Balance.
 3. The **‘How it Works’** section is key for visitors to get a snapshot of how Balance works and what is on offer.
@@ -191,7 +191,7 @@ The website was created using Bootstraps grid system.</p>
    * Hover.css was used on the Font awesome icons in the ‘How it Works’ section to add the pulse-grow 2D transition while being hovered over.
 
 * [Google Fonts](https://fonts.google.com/)
-   * Google fonts were used to import the x font into the style.css file which is used on all pages throughout the project.
+   * Google fonts were used to import the 'Nunito' font into the style.css file which is used on all pages throughout the project.
 
 * [Font Awesome](https://fontawesome.com/)
    * Font Awesome was used on both pages on the website to add icons for aesthetic UX purposes and visual aid purposes. 
