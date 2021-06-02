@@ -4,7 +4,7 @@
 [Live website can be viewed here](https://vanessacleary.github.io/vanessacleary-Ms1-2021/)
 
 ## Table of Contents
-* [Project Goals]()
+* [Project Goals](#Project-Goals)
 * [User Expierence](#User-Expierence)
     * [Site owner goals](#site-goals)
     * [User Stories](#User-Stories)
@@ -30,6 +30,8 @@
 <p>Balance is an online Yoga and Meditation class platform. It is just over 12 months old and looking to grow its membership base.
 
 Balance was created as a direct response to the Covid-19 pandemic when all in person classes were cancelled. Balance is now a commercial business looking to expand its membership base and compete in the virtual yoga class market on both price and offering.</p>
+## Project Goals
+* The aim of this project is to market Balance - a fictional virtual Yoga & Mediatation studio online with an equal shot of gaining members as thoer competitors. The projects aims to providea smooth and simple user expierence with clear information and easily accessable contact and social media information
 
 ## User Expierence
 
@@ -45,12 +47,14 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 ### User Stories:
 
 **First Time Visitor Goals:**
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find information I want easily.
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-*  As a First Time Visitor, I want to be able to easily navigate throughout the site to find the information I need easily.
-* As a First Time Visitor, I want easily know how it works and how to sign up.
-* As a First Time Visitor, I want to look for testimonials to understand what their memebers think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+* As a First Time Visitor, I want to easily see the price for the membership. 
+* As a First Time Visitor, I want easily know about the organisation, how it works and how to sign up.
+* As a First Time Visitor, I want to look for testimonials to understand what their memebers think of them and see if they are trusted.
+* As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 *  As a First Time Visitor, I want to easily be able to sign up for a free trial to get an idea of what the membership is like.
-*  As a First Time Visitor, I want to easily see the price for the membership.
+*  As a First Time Visitor, I want to easily be able to make contact with any queiries or questions I have. 
 
 **A Returning Visitor Goals:**
 *  As a returning visitor, I want to easily be reminded what Balance is about and how it works.
@@ -59,8 +63,8 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 *  As a returning user, I want to easily see testimonials.
 
 **A Member Returning Goals:**
-*  As a member, I want to visit Balance and easily log-in to attend a class or see the class schedule.
-*  As a member, I want to easily see contact information for Balance.
+*  As a member, I want to visit Balance and easily log-in to attend a class, take a class on demand or see the class schedule.
+*  As a member, I want to easily see contact & social media information for Balance.
 
 ## Design:
 
@@ -85,12 +89,12 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
   * It's also a sans-serif font which is more accessible for people with dyslexia. Sans-serif is the back-up font if Nunito fails.
 
 **Imagery** 
-* All images on the website are of professional quality and fully licensed. Please see 'Credits' section for more information on licenses.
+* All images on the website are of professional quality and fully licensed. All images were taken from [Unsplash](https://unsplash.com/) or [Google images](https://images.google.com/) Please see 'Credits' section for more information on licenses.
 
 ## Features
 
-<p>The entire site is responsive for all screen sizes and both pages have the same Navbar and Footer.
-The website was created using Bootstraps grid system.</p>
+<p>The entire site is responsive for all screen sizes and both pages have the same responsive Navbar and Footer.
+The website was created using Bootstraps 4.6 grid system.</p>
 
 **The website has 2 pages:**
 
@@ -113,10 +117,19 @@ The website was created using Bootstraps grid system.</p>
 **Section 1: The hero image with jumbotron and CTA:**
 * I chose a less striking image for the hero image as I wanted the Balance concept, price and free trail CTA to be the first thing visitors see. I had tested other images and they took away from the key information. The current image was still distracting however adding a shadowed overlay helped mute out the image and draw more attention to the key information and CTA. 
 
+  * The follwoing user stories addresses this section 
+    * *As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.*
+    * *As a First Time Visitor, I want to easily see the price.*
+    * *As a First Time Visitor, I want to easily be able to sign up for a free trial to get an idea of what the membership is like.*
+    * *As a returning visitor, I want to easily be reminded what Balance is about and how it works.*
+
 ![Hero section](/docs/features/hero-section.JPG)
 
 **Section 2:**
 * The ‘About’ section is an information section, detailing how Balance was formed, the target audience, the different styles of Yoga and Meditation available and direction Balance is going in. The ‘Here what our members have to say’ button is an essential CTA to draw visitors' attention to how much current members love Balance. The copy was created by me.
+
+  * The follwoing user stories addresses this section 
+      * *As a First Time Visitor, I want easily know find out about the organisation, how it works and how to sign up.*
 
 ![About section](/docs/features/about-section.JPG)
 
@@ -129,6 +142,9 @@ The website was created using Bootstraps grid system.</p>
   * The icons in the heading are also visual aids for visitors who may need them. The icons were made responsive using hover.css to add some movement to the site.
   * The copy was written by me. 
 
+    * The follwoing user stories addresses this section 
+      * *As a First Time Visitor, I want easily know find out about the organisation, how it works and how to sign up.*
+
 ![How it works section](/docs/features/how-it-works-section.JPG)
 
 **Section 4: Meet the Team:**
@@ -139,6 +155,10 @@ The website was created using Bootstraps grid system.</p>
 **Section 5: Testimonials**
 * This section is to inform visitors of how current members feel about Balance and help consumers make an informed decision. The carousel was one feature I wanted  to incorporate on the website to bring the website to life with some movement. 
 
+   * The follwoing user stories address this section 
+      * *As a First Time Visitor, I want to look for testimonials to understand what their memebers think of them and see if they are trusted.*
+      * *As a returning user, I want to easily see testimonials.*
+
 ![Testimonial section](/docs/features/testimonial-section.JPG)
 
 **Section 6: Gallery**
@@ -148,6 +168,12 @@ The website was created using Bootstraps grid system.</p>
 
 **Section 7: The footer on both homepage and login and register page**
 * The footer ended up being different to the wireframe. A newsletter sign up form is a better feature than a contact form for an online business. It is easy to sign up and helps Balance build brand awareness and reach consumers in their inbox.The contact information is hyperlinked for good user experience and one-click step to make contact on mobile and email.The social media icons bring visitors to all their channels so users can get further information and see the content and followings on each platform.
+
+ * The follwoing user stories address this section 
+    *  *As a First Time Visitor, I want to look for testimonials to understand what their memebers think of them and see if they are trusted.*
+    *  *As a First Time Visitor, I want to easily be able to make contact with any queiries or questions I have.*
+    *  *As a returning visitor, I want to easily be able to contact Balance for any questions or queries I may have.*
+    *  *As a member, I want to easily see contact & social media information for Balance.*
 
 ![Footer section](/docs/features/footer-section.JPG)
 
@@ -160,6 +186,9 @@ The website was created using Bootstraps grid system.</p>
 
 **Section 2: Login and registration forms**
 * I decided to keep this page clear, concise and fuss free. This section has two clear forms and directs users to which form they need. The login form is for existing members and the registration form is for new members to sign up. The fixed-top Navbar directs visitors back to the home page to re-look at any information if they wish.
+
+ * The follwoing user stories address this section
+   * *As a member, I want to visit Balance and easily log-in to attend a class, take a class on demand or see the class schedule.*
 
 ![Log-in section](/docs/features/log-in-section.JPG)
 
@@ -221,17 +250,33 @@ The website was created using Bootstraps grid system.</p>
 
 * [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
+* [Color contrast]()
+
 ## Testing
+
+### Validator
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate both pages of the project to ensure there were no syntax errors in the project.
 
-* W3C Markup Validator - [Results]
+* W3C Markup Validator Homepage - [Results]
+  * The homepage passed with 0 errors
+* W3C Markup Validator Login page - [Results]
+  * The Login page passed with 0 errors
 * W3C CSS Validator - [Results]
+  * The CSS passed with 0 errors
+
+### Performance
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
+  * Click on the page name to see the result: Home | Login
+
+### Responsivness 
+
+### Accessability 
 
 ### Known Issues and Bugs
 
 1. The bottom of second gallery image cuts of on large screens
-2. The gallery images overlap on iPda screens with screen size 768x1024 when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
-3. The Nav bar was causing an issue. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading. 
+2. The gallery images overlap on iPad screens with screen size 768x1024 when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
+3. The Nav bar was causing an issue. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading - this has since been fixed. 
 
 ## Deployment
 

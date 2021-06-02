@@ -283,55 +283,54 @@
   </div>
 <!--/Gallery  -->
 
-  <!-- footer -->
-  <footer  id="contact-us">
+<!-- footer -->
+   <footer id="contact-us">
     <div class="container">
       <div class="row py-5">
         <div class="col-12 col-md-6">
           <h3>Contact Us</h3>
           <hr class="footer-divider">
           <p><i class="fas fa-map-marker-alt hvr-pulse-grow"></i> Head office: Limerick, Ireland</p>
-          <p><i class="fas fa-envelope hvr-pulse-grow"></i><a id="email-address" href="mailto:info@balance.com?"> info@balance.com</a></p>
-          <p><i class="fas fa-phone hvr-pulse-grow"></i><a id="phone-number-ire" href="tel:+353-01-70-80-90"> +353 1 70 80 90</a>: Monday-Friday: 9am-5pm GMT </p>
-          <p><i class="fas fa-phone hvr-pulse-grow"></i><a id="phone-number" href="tel:1800-70-80-90"> 1800 70 80 90</a>: Outside ROI, Monday-Friday: 9am-5pm GMT</p>
+          <p><i class="fas fa-envelope hvr-pulse-grow"></i> <a id="email-address" href="mailto:info@balance.com?">info@balance.com </a></p>
+          <p><i class="fas fa-phone hvr-pulse-grow"></i> <a id="phone-number-ire" href="tel:+353-01-70-80-90"> +353 1 70 80 90</a>: Monday-Friday: 9am-5pm GMT </p>
+          <p><i class="fas fa-phone hvr-pulse-grow"></i> <a id="phone-number" href="tel:1800-70-80-90"> 1800 70 80 90</a>: Outside ROI, Monday-Friday: 9am-5pm GMT</p>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6"> 
           <form>
             <h3>Monthly Newsletter</h3>
             <hr class="footer-divider">
-            <fieldset class="form-group">
-              <input type="text" class="form-control" id="name-input" placeholder="Name" required>
-            </fieldset>
-            <fieldset class="form-group">
-              <input type="email" class="form-control" id="email-input" placeholder="example@email.com" required>
-            </fieldset>
-            <input type="checkbox" id="newsletter-permission" name="permission" required>
-            <label for="newsletter-permission" class="user-permission">I consent to receiving content from Balance</label>
-            
-            <fieldset class="form-group">
-              <button type="button" class="btn btn-footer btn-sm"> Sign
-                up
-              </button>
-            </fieldset>
+
+            <div class="form-group">
+              <label for="signup-email"><strong>Email address</strong></label>
+              <input type="email" class="form-control text-input" placeholder="example@email.com" aria-label="email address" required>
+              <small class="form-text text-light">We'll never share your email with anyone else.</small>
+            </div>            
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input">
+              <label class="form-check" for="check-box">I consent to receiving content from Balance</label>
+            </div>
+            <button type="submit" class="btn  btn-footer btn-sm">Subscribe</button>
           </form>
-        </div>
+        </div> 
+       
+       <div class="col-12">
+       <ul class="social-networks">
+         <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+          <i class="fab fa-facebook"></i></a></li>
+         <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+          <i class="fab fa-twitter-square"></i></a></li>
+         <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+          <i class="fab fa-instagram"></i></a></li>
+         <li><a href="https://www.youtube.com/  " target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+          <i class="fab fa-youtube"></i></a></li>
+         <li><a href="https://en.wikipedia.org/wiki/Blog" target="_blank" rel="noopener" aria-label="Visit our Blog">
+          <i class="fab fa-wordpress"></i></a></li>
+       </ul>
       </div>
     </div>
-    <div class="col-12">
-        <ul class="social-networks">
-          <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i
-              class="fab fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page"><i
-              class="fab fa-twitter-square"></i></a></li>
-          <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page"><i
-              class="fab fa-instagram"></i></a></li>
-          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube channel"><i
-              class="fab fa-youtube"></i></a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Blog" target="_blank" rel="noopener" aria-label="Visit our Blog"><i
-              class="fab fa-wordpress"></i></a></li>
-        </ul>
-      </div>
+    </div>
   </footer>
+<!-- /footer -->
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

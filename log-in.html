@@ -21,7 +21,7 @@
   <body>
     <header>
     <!-- Nav bar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top nav-style">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
         <a class="navbar-brand" href="index.html#home-section">Balance</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,6 +58,7 @@
  <!-- /Nav bar  -->
 </header>
 
+<!-- free trail alert -->
 <section>
   <div class="container pt-5">
     <div class="row pt-5">
@@ -69,12 +70,14 @@
     </div>
   </div>
  </section>
+<!--/free trail alert -->
 
- <section>
+<!-- login and registration form -->
+<section>
 <div class="container py-5">
 <div class="row">
   <div class="col-12 col-md-6">
-    <h2 class="section-heading text-uppercase log-in-center"> Log in  </h2>
+    <h2 class="section-heading text-uppercase log-in-center"> Log in </h2>
     <hr class="divider-section-log-in" />
     <form class="form-group">
       <div>
@@ -102,8 +105,9 @@
     <form>
       <div class="form-group">
         <label for="firstname"><strong>First Name</strong></label>
-        <input type="text" name="firstname form-control text-input" id="firstname" placeholder="First name" aria-label="name" required>
+        <input type="text" name="firstname"  class="form-control text-input" id="firstname" placeholder="First name" aria-label="name" required>
       </div>
+
       <div class="form-group">
         <label for="lastname"><strong>Last Name</strong></label>
         <input type="text" name="lastname" class="form-control text-input" id="lastname" placeholder="Last name" aria-label="name" required>
@@ -132,9 +136,10 @@
   </div>
 </div>
 </section>
+<!-- /login and registration form -->
 
-  <!-- footer -->
-  <footer id="contact-us">
+<!-- footer -->
+   <footer id="contact-us">
     <div class="container">
       <div class="row py-5">
         <div class="col-12 col-md-6">
@@ -149,48 +154,46 @@
           <form>
             <h3>Monthly Newsletter</h3>
             <hr class="footer-divider">
-            <fieldset class="form-group">
-              <input type="text" class="form-control" placeholder="Name" required>
-            </fieldset>
-            <fieldset class="form-group">
-              <input type="email" class="form-control" placeholder="example@email.com" required>
-            </fieldset>
-            <input type="checkbox" id="newsletter-permission" name="permission" required>
-            <label for="newsletter-permission" class="user-permission">I consent to receiving content from 
-              Balance.
-            </label>
-            <fieldset class="form-group">
-              <button type="button" class="btn btn-footer btn-sm"> Sign
-                up
-              </button>
-            </fieldset>
+            <div class="form-group">
+              <label for="signup-email"><strong>Email address</strong></label>
+              <input type="email" class="form-control text-input" placeholder="example@email.com" aria-label="email address" required>
+              <small class="form-text text-light">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input">
+              <label class="form-check" for="check-box">I consent to receiving content from Balance</label>
+            </div>
+            <button type="submit" class="btn  btn-footer btn-sm">Subscribe</button>
           </form>
-        </div>
+        </div> 
+       <div class="col-12">
+       <ul class="social-networks">
+         <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+          <i class="fab fa-facebook"></i></a></li>
+         <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+          <i class="fab fa-twitter-square"></i></a></li>
+         <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+          <i class="fab fa-instagram"></i></a></li>
+         <li><a href="https://www.youtube.com/  " target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+          <i class="fab fa-youtube"></i></a></li>
+         <li><a href="https://en.wikipedia.org/wiki/Blog" target="_blank" rel="noopener" aria-label="Visit our Blog">
+          <i class="fab fa-wordpress"></i></a></li>
+       </ul>
       </div>
     </div>
-    <div class="col-12">
-      <ul class="social-networks">
-        <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i
-              class="fab fa-facebook"></i></a></li>
-        <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page"><i
-              class="fab fa-twitter-square"></i></a></li>
-        <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page"><i
-              class="fab fa-instagram"></i></a></li>
-        <li><a href="https://www.youtube.com/  " target="_blank" rel="noopener" aria-label="Visit our YouTube channel"><i
-              class="fab fa-youtube"></i></a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Blog" target="_blank" rel="noopener" aria-label="Visit our Blog"><i
-              class="fab fa-wordpress"></i></a></li>
-      </ul>
     </div>
   </footer>
 
-<!-- Scripts -->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-  
-    </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+</body>
 </html>
