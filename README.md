@@ -23,6 +23,10 @@
     * [Languages](#Languages)
     * [Frameworks & Tools](#Frameworks-&-Tools)
 * [Testing](#Testing)
+    * [Validation](#Validation)
+    * [Performance](#Performance)
+    * [Responsivness](#Responsivness)
+    * [Accessability](#Accessability)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
 * [Awknowledgments](#Awknowledgments)
@@ -30,8 +34,9 @@
 <p>Balance is an online Yoga and Meditation class platform. It is just over 12 months old and looking to grow its membership base.
 
 Balance was created as a direct response to the Covid-19 pandemic when all in person classes were cancelled. Balance is now a commercial business looking to expand its membership base and compete in the virtual yoga class market on both price and offering.</p>
+
 ## Project Goals
-* The aim of this project is to market Balance - a fictional virtual Yoga & Mediatation studio online with an equal shot of gaining members as thoer competitors. The projects aims to providea smooth and simple user expierence with clear information and easily accessable contact and social media information
+* The aim of this project is to market Balance - a fictional virtual Yoga & Mediatation studio online with the aim of growing their membership base. The projects aims to provide a smooth and simple user expierence with clear information and easily accessable contact and social media information.
 
 ## User Expierence
 
@@ -250,7 +255,7 @@ The website was created using Bootstraps 4.6 grid system.</p>
 
 * [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-* [Color contrast]()
+* [Color contrast](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/)
 
 ## Testing
 
@@ -266,17 +271,20 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
 
 ### Performance
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
-  * Click on the page name to see the result: Home | Login
+  * Click on the page name to see the result for desktop: Home | Login
+  * Click on the page name to see the result for mobile: Home | Login
 
 ### Responsivness 
-
+   -  update coming
 ### Accessability 
+   - will update coming
 
 ### Known Issues and Bugs
 
-1. The bottom of second gallery image cuts of on large screens
-2. The gallery images overlap on iPad screens with screen size 768x1024 when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
-3. The Nav bar was causing an issue. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading - this has since been fixed. 
+1. The gallery images overlap on iPad screens with screen size 768x1024 when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
+2. On large screens the middle gallery image is cut off at the end. 
+1. The gallery images do not shrink when the 'zoom' is reduced.
+1. The Nav bar was causing an issue. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading - this has since been fixed. 
 
 ## Deployment
 
