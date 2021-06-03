@@ -19,12 +19,8 @@ html {
 	  font-size: 1.8rem;
   }
 
-  /* Nav bar */
+  /*-----------------------Nav bar */
   
-  .fixed-top {
-	position: fixed-top;
-  }
-
   .navbar-brand {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -76,13 +72,12 @@ html {
 	color:#D05353;	
 }
 
-
-  /* Rounded images */
+  /*-----------------------Rounded images */
   .image-fit-cover {
 	  object-fit: cover;
   }
   
-  /* Jumbotron  */
+  /*-----------------------Jumbotron  */
   
   #home-section {
 	min-height: 60vh;
@@ -116,12 +111,13 @@ html {
 	border: transparent;
   }
   
-  /* colors, headings, buttons, spacing, divider */
+  /*-----------------------colors, headings, buttons, spacing, divider */
+
   .section-heading {
 	line-height: 1.4;
 	color:#D05353;
 }
-/* --------------------------------------buttons */
+/*-----------------------buttons */
   .btn-main-pink {
 	  background-color: #D05353;
 	  border-color: transparent;
@@ -143,9 +139,9 @@ html {
 		border-color: transparent;
 		color: #D05353;
 		text-transform: uppercase;
-		letter-spacing: 2px;
-		padding: 15px 30px;
-		font-weight: 600;
+		letter-spacing: 1px;
+		padding: 10px 20px;
+		font-weight: 400;
 	}
 	
 	.btn-footer:hover {
@@ -154,7 +150,7 @@ html {
 		color: #D05353;
 	} 
 
-/* -------------------------------------- dividers */
+/*-----------------------dividers */
 	  .divider-section-pink {
 	  width: 25%;               
 	  background: #D05353;
@@ -182,16 +178,16 @@ html {
 		height: 2px;
 		margin-top: 1rem;
 	}
-	  
-	  /* about section */
+
+/*----------------------- about section */
 	  
 	#about-section {
   	text-align: center;
   	line-height: 1.4;
-  	scroll-margin-top: 2em;
+  	scroll-margin-top: 4.5em;
   } 
   
-  /* how it works section */
+/*-----------------------how it works section */
   
   #works-section {
    background-color: #D05353;
@@ -211,7 +207,7 @@ html {
   margin: 0;
   }  
  
-  /*-------------------------------- Meet the team section */
+  /*----------------------- Meet the team section */
   
   #team-section {
 	scroll-margin-top: 2em;
@@ -235,7 +231,7 @@ html {
 	} 
   
   
-  /* --------------------------------------------Testinomials carousel */
+  /*-----------------------Testinomials carousel */
   #testimonial-section{
 	  background-color: #D05353;
 	  color:#fff;
@@ -312,10 +308,10 @@ html {
 	  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
   }
   
-  /* footer */
+  /*-----------------------footer */
   
   footer {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   background-color: #D05353;
   color: #fff;
   }
@@ -330,7 +326,11 @@ html {
 	color: #fff;
 }
 
-  /* social  */
+.footer-links {
+	color: #fff;
+}
+
+  /*-----------------------social  */
 	.social-networks {
 	  text-align: center;
 	}
@@ -342,14 +342,14 @@ html {
 	.social-networks i {
 	  font-size: 140%;
 	  margin: 1%;
-	  padding: 5%;
+	  padding: 3%; 
 	  color: #fff;
 	}
 	.social-networks i:hover{
 	  color: #F2B880;
 	}
   
-   /* login form */
+   /*-----------------------login form */
   
    #log-in-form {
 	scroll-margin-top: 4em;
@@ -358,7 +358,7 @@ html {
 	scroll-margin-top: 4em;  
    }
   
-  /* Gallery */
+  /*-----------------------Gallery */
   
      #gallery-section {
 	  min-height: 20em;
@@ -390,7 +390,7 @@ html {
 	  background-image: url('../images/gallery-11.JPG'); 
   }  
 
-  /* alert */
+  /*-----------------------alert */
   .alert {
   background-color: #D05353;
   }
@@ -407,18 +407,37 @@ html {
 	  text-align: center;
   }
 
-/* Media querys */
+/*-----------------------404 page */
 
-@media (min-width: 576px) {
-  #img-3 { display:none;
- }
+#error-section {
+	min-height: 85vh;
+	width: 100%;
+	background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('../images/meditation.jpg') no-repeat center center;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	scroll-margin-top: 2em;
 }
 
-@media (min-width: 768px) {
-	#img-3 { display:none;
-   }
-  }
+.back-to-home {
+	color: #fff;
+}
 
+/*-----------------------Media querys */
+
+/*-----------------------Gallery img does not show on mobile */
+  /* @media (min-width: 576px) {
+  #image-3 { display:none;
+ }
+}  */
+
+ /* @media (max-width: 768px) {
+	#image-3 { display:none;
+   }
+  }  */
+
+ /*-----------------------Centers the login & Registration headings on mobile */ 
 @media only screen and (max-width: 576px) {
 	.log-in-center { text-align: center; }
 }

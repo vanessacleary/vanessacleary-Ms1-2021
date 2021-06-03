@@ -33,7 +33,7 @@
 
 <p>Balance is an online Yoga and Meditation class platform. It is just over 12 months old and looking to grow its membership base.
 
-Balance was created as a direct response to the Covid-19 pandemic when all in person classes were cancelled. Balance is now a commercial business looking to expand its membership base and compete in the virtual yoga class market on both price and offering.</p>
+Balance was created as a direct response to the Covid-19 pandemic when all in person classes were cancelled. Balance is now a commercial business looking to expand its membership base and compete in the virtual yoga and meditation class market on both price and offering.</p>
 
 ## Project Goals
 * The aim of this project is to market Balance - a fictional virtual Yoga & Mediatation studio online with the aim of growing their membership base. The projects aims to provide a smooth and simple user expierence with clear information and easily accessable contact and social media information.
@@ -52,7 +52,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 ### User Stories:
 
 **First Time Visitor Goals:**
-* As a First Time Visitor, I want to be able to easily navigate throughout the site to find information I want easily.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find information I want.
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 * As a First Time Visitor, I want to easily see the price for the membership. 
 * As a First Time Visitor, I want easily know about the organisation, how it works and how to sign up.
@@ -87,6 +87,8 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 **Colors**
 
 * I created a colour scheme of Indian red and White with shades of apricot to for clickable elements on the website. I chose to keep the website crisp and clean with block colors. As the website is a membership service I wanted to ensure key information was not missed and there was very little distractions on the website. 
+      * Red has over 50 color shades and is color that symbolizes passion, the heat of energy, passion and love to name a few.
+      * Yoga & Meditation is part of peoples lifestyle filled with passion, engery and love so after the the colour change I was delighted to use red for the accessability it brought to the website and meaning of color aligns with the brand. 
 
 **Typography** 
 * I chose 'Nunito' from Google Fonts. I chose this font because:
@@ -219,7 +221,7 @@ The website was created using Bootstraps 4.6 grid system.</p>
 
 * [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
    * The Bootstrap framework was used to help build the responsive structure of the site and add default styling.
-   * It was also used to import JavaScript and Jquery which was used for the pop up modal sign up form and the collapsible navbar.
+   * It was also used to import JavaScript and Jquery which was used for the collapsible navbar.
 
 * [Hover.css](https://ianlunn.github.io/Hover/)
    * Hover.css was used on the Font awesome icons in the ‘How it Works’ section to add the pulse-grow 2D transition while being hovered over.
@@ -253,7 +255,7 @@ The website was created using Bootstraps 4.6 grid system.</p>
 
 * [The W3C Markup Validation Service](https://validator.w3.org/)
 
-* [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
+* [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 * [Color contrast](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/)
 
@@ -262,26 +264,35 @@ The website was created using Bootstraps 4.6 grid system.</p>
 ### Validator
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate both pages of the project to ensure there were no syntax errors in the project.
 
-* W3C Markup Validator Homepage - [Results]
+* W3C Markup Validator Homepage - [Results](/docs/testing/desktop-home-page-validation.JPG)
   * The homepage passed with 0 errors
-* W3C Markup Validator Login page - [Results]
+* W3C Markup Validator Login page - [Results](/docs/testing/desktop-login-page-validation.JPG)
   * The Login page passed with 0 errors
-* W3C CSS Validator - [Results]
+* W3C CSS Validator - [Results](/docs/testing/css-validator.JPG)
   * The CSS passed with 0 errors
 
 ### Performance
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
-  * Click on the page name to see the result for desktop: Home | Login
-  * Click on the page name to see the result for mobile: Home | Login
+  * Click on the page name to see the result for desktop: [Home](docs/testing/desktop-lighthouse-home.JPG) | [Login](docs/testing/desktop-lighthouse-login.JPG)
+  * Click on the page name to see the result for mobile: [Home](docs/testing/mobile-lighthouse-home.JPG) | [Login](docs/testing/mobile-lighthouse-login.JPG)
 
 ### Responsivness 
-   -  update coming
+* The website was tested using  desk the 'inspect' option availabale on Google and Internet explorer for differnt screen sizes and    mobile. The following devices showed zero errors with responsiveness or format. 
+* Devices:
+  * Samsung Galaxy S20 
+  * iPhone X
+  * iPhone 11
+  * Lenovo IdeaPad S340-14IIL
+  * Samsung A70
+  * Toshiba satellite 
+
 ### Accessability 
-   - update coming
+
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) gave the website a score of 96% accessability for both mobile and desktop. 4% was lost for *'Background and foreground colors do not have a sufficient contrast ratio.'* This was flagged earlier on in the project and changes were made to increase the core to 96%. Futher updates to the project would look to improve the website accessability and gain a score of 100%.
 
 ### Known Issues and Bugs
 
-1. The gallery images overlap on iPad screens with screen size 768x1024 when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
+1. The gallery images squash on iPad screens with screen size '768x1024' when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
 2. On large screens the middle gallery image is cut off at the end. 
 1. The gallery images do not shrink when the 'zoom' is reduced.
 1. The Nav bar was causing an issue. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading - this has since been fixed. 
@@ -321,9 +332,10 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
 
 ### Images:
 * [Unsplash](https://unsplash.com/)
-  * [Gallery 4](https://images.unsplash.com/photo-1601568870191-8c417f7e0077?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80)
-  * [Gallery 7](https://images.unsplash.com/photo-1573384666670-4b57c9881606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=358&q=80)
-  * [Gallery 8](https://images.unsplash.com/photo-1593164842264-854604db2260?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80)
+  * [Gallery 4](https://unsplash.com/collections/98859793/yoga): Mathilde Langevin
+  * [Gallery 8](https://unsplash.com/@sonniehiles): Sonnie Hiles
+  * [Gallery 7](https://unsplash.com/@zenbear): Zen Bear Yoga
+  
 
 * [Google](https://www.google.com/imghp?hl=en)
   * [Meditation](http://kyleighroessner.skyword.com/external/sampleimages/190255/image1000w.jpg)
@@ -333,7 +345,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
   * [Person 4](https://www.jasonyoga.com/wp-content/uploads/2021-headshot-1-400x400.png)
 
 ## Acknowledgements
-*  Code Institute for providing endless help and resources to get me this far
-* My mentor Reubem for the help and patience to guide me through my first project.
+* Code Institute for providing endless help and resources to get me this far
+* My mentor Reuben Ferrante for the help and patience to guide me through my first project.
 * The Mini Feb 2021 group, wider slack community and the tutors for all the help support and feedback for the last couple of weeks. 
 * Friends and Family who have taken their time to offer advice and feedback during the development of my project.
