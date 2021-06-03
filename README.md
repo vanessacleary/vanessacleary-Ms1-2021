@@ -277,7 +277,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
 ### Responsivness 
    -  update coming
 ### Accessability 
-   - will update coming
+   - update coming
 
 ### Known Issues and Bugs
 

@@ -40,7 +40,7 @@
               <a class="nav-link" href="#about-section">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#works-section">How it works</a>
+              <a class="nav-link" href="#works-section">Join</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#team-section">Team</a>
@@ -48,11 +48,19 @@
             <li class="nav-item">
               <a class="nav-link" href="#testimonial-section">Testimonials</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="log-in.html">Login</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sign in
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="log-in.html#log-in-form">Login</a>
+                <a class="dropdown-item" href="log-in.html#register-form">Register</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="log-in.html#alert">Free Trail</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact-us">Contact us</a>
+              <a class="nav-link" href="#contact-us">Contact</a>
             </li>
           </ul>
         </div>
@@ -69,7 +77,7 @@
           <div class="col">
             <h3 class="display-4">Practice<span style="color: #D05353">.</span> Anytime<span
                 style="color: #D05353;">.</span> Anywhere<span style="color: #D05353">.</span></h3>
-            <p class="display-5 py-2">Online Yoga <span style="color: #D05353">&</span> Meditation classes</p>
+            <h3 class="display-5 py-2">Online Yoga <span style="color: #D05353">&</span> Meditation classes</h3>
             <h3>€19.99 per month</h3>
             <br>
             <a class="btn btn-main-pink btn" href="log-in.html" role="button">Start Free 30-day Trial</a>
@@ -302,11 +310,11 @@
 
             <div class="form-group">
               <label for="signup-email"><strong>Email address</strong></label>
-              <input type="email" class="form-control text-input" placeholder="example@email.com" aria-label="email address" required>
+              <input type="email" class="form-control text-input" id="signip-email" placeholder="example@email.com" aria-label="email address" required>
               <small class="form-text text-light">We'll never share your email with anyone else.</small>
             </div>            
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input">
+              <input type="checkbox" class="form-check-input" id="check-box">
               <label class="form-check" for="check-box">I consent to receiving content from Balance</label>
             </div>
             <button type="submit" class="btn  btn-footer btn-sm">Subscribe</button>

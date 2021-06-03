@@ -37,7 +37,7 @@
               <a class="nav-link" href="index.html#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.html#works-section">How it works</a>
+                <a class="nav-link" href="index.html#works-section">Join</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.html#team">Team</a>
@@ -45,11 +45,19 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html#testimonial-section">Testimonials</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="log-in.html">Login</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Sign in
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="log-in.html#log-in-form">Login</a>
+                <a class="dropdown-item" href="log-in.html#register-form">Register</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Free Trail</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact-us">Contact us</a>
+              <a class="nav-link" href="#contact-us">Contact</a>
             </li>
           </ul>
         </div>
@@ -59,7 +67,7 @@
 </header>
 
 <!-- free trail alert -->
-<section>
+<section id="alert">
   <div class="container pt-5">
     <div class="row pt-5">
       <div class="col-12 alert py-5 free-trail-alert" role="alert">
@@ -73,11 +81,11 @@
 <!--/free trail alert -->
 
 <!-- login and registration form -->
-<section>
+<section id="sign-up-forms">
 <div class="container py-5">
 <div class="row">
   <div class="col-12 col-md-6">
-    <h2 class="section-heading text-uppercase log-in-center"> Log in </h2>
+    <h2 class="section-heading text-uppercase log-in-center" id="log-in-form"> Log in </h2>
     <hr class="divider-section-log-in" />
     <form class="form-group">
       <div>
@@ -100,7 +108,7 @@
 
   </div>
   <div class="col-12 col-md-6">
-    <h2 class="section-heading text-uppercase log-in-center"> Register </h2>
+    <h2 class="section-heading text-uppercase log-in-center" id="register-form"> Register </h2>
     <hr class="divider-section-log-in" />
     <form>
       <div class="form-group">
