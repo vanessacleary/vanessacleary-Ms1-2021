@@ -113,9 +113,14 @@ html {
   
   /*-----------------------colors, headings, buttons, spacing, divider */
 
-  .section-heading {
-	line-height: 1.4;
+  .section-heading-red {
+	line-height: 1rem;
 	color:#D05353;
+}
+
+.section-heading-white {
+	line-height: 1rem;
+	color:#fff;
 }
 /*-----------------------buttons */
   .btn-main-pink {
@@ -141,7 +146,7 @@ html {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		padding: 10px 20px;
-		font-weight: 400;
+		font-weight: 600;
 	}
 	
 	.btn-footer:hover {
@@ -152,37 +157,32 @@ html {
 
 /*-----------------------dividers */
 	  .divider-section-pink {
-	  width: 25%;               
+	  width: 20%;               
 	  background: #D05353;
-	  height: 2px;
-	  margin-top: 1rem;
+	  height: 1px;
 	  }
 	  
 	  .divider-section-white {
-	  width: 25%;               
+	  width: 20%;               
 	  background: #fff;
-	  height: 2px;
-	  margin-top: 1rem;
+	  height: 1px;
 	  }
   
 	  .footer-divider {
 	  width: 100%;
 	  background: #fff;
-	  height: 2px;
-	  margin-top: 1rem;	
+	  height: 1px;
 	  }
 
 	  .divider-section-log-in {
 		width:100%;
 		background: #D05353;
-		height: 2px;
-		margin-top: 1rem;
+		height: 1px;
 	}
 
 /*----------------------- about section */
 	  
 	#about-section {
-  	text-align: center;
   	line-height: 1.4;
   	scroll-margin-top: 4.5em;
   } 
@@ -191,6 +191,7 @@ html {
   
   #works-section {
    background-color: #D05353;
+   line-height: 1.4;
    color: #fff;
    scroll-margin-top: 2em;
   }
@@ -211,6 +212,7 @@ html {
   
   #team-section {
 	scroll-margin-top: 2em;
+	line-height: 1.4;
   }
     .team-member {
 	  margin-bottom: 3rem;
@@ -225,15 +227,15 @@ html {
 	  margin-top: 2rem;
 	  margin-bottom: 0;
 	}
-	
 	.img-brand {
 	  height: 2.75rem;
 	} 
   
   
   /*-----------------------Testinomials carousel */
-  #testimonial-section{
+  #testimonial-section {
 	  background-color: #D05353;
+	  line-height: 1.4;
 	  color:#fff;
 	  scroll-margin-top: 2em;
   }
@@ -282,11 +284,9 @@ html {
   }
   .carousel-control-prev i, .carousel-control-next i {
 	  font-size: 2.5rem;
-	  line-height: 42px;
 	  position: absolute;
 	  display: inline-block;
 	  color:#fff;
-	  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
   }
   .carousel-indicators {
 	  bottom: -40px;
@@ -303,18 +303,57 @@ html {
 	  border-color: transparent;
 	  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
   }
-  .carousel-indicators li.active {	
+   .carousel-indicators li.active {	
 	  background: #fff;		
 	  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
   }
+   
+ /*-----------------------Gallery */
   
+ #gallery-section {
+	min-height: 20em;
+  }
+
+  #gallery-section img {
+	object-fit: cover;
+	max-width:15em;
+	min-height: 20em;
+   }
+
+  #gallery-section .gallery-col {
+	background-size: cover;
+	height: 40em;
+	border: white;
+	border-style: solid;
+}
+
+  #gallery-section #image-1 {
+	background-image: url('../images/gallery-4.jpg'); 
+}
+  #gallery-section #image-2 {
+	background-image: url('../images/gallery-8.JPG'); 	
+}
+
+
+  #gallery-section #image-3 {
+	background-image: url('../images/gallery-7.JPG'); 
+
+}
+
+
   /*-----------------------footer */
   
   footer {
-  /* padding-top: 30px; */
-  background-color: #D05353;
-  color: #fff;
+	background-color: #D05353;
+	color: #fff;
+	line-height: 1.4;
+	}
+
+  .footer-headings{
+	line-height: 1rem;
   }
+
+
   #email-address {
   color: #fff; 
 }
@@ -358,37 +397,7 @@ html {
 	scroll-margin-top: 4em;  
    }
   
-  /*-----------------------Gallery */
-  
-     #gallery-section {
-	  min-height: 20em;
-    }
-
-    #gallery-section img {
-	  object-fit: cover;
-	  max-width:15em;
-	  min-height: 20em;
-     }
-  
-    #gallery-section .gallery-col {
-	  background-size: cover;
-	  height: 40em;
-	  border: white;
-	  border-style: solid;
-  }
-  
-	#gallery-section #image-1 {
-	  background-image: url('../images/gallery-4.jpg'); 
-  }
-    #gallery-section #image-2 {
-	  background-image: url('../images/gallery-8.JPG'); 
-  }
-    #gallery-section #image-3 {
-	  background-image: url('../images/gallery-7.JPG'); 
-  }
-    #gallery-section #image-4 {
-	  background-image: url('../images/gallery-11.JPG'); 
-  }  
+ 
 
   /*-----------------------alert */
   .alert {
