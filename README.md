@@ -1,5 +1,5 @@
 ## Miletsone Project 1 | Balance - Virtual Yoga & Meditation Classes
-![Website overview](/docs/features/website-overview.JPG)
+![Website overview](/docs/features/am-I-responsive.JPG)
 
 [Live website can be viewed here](https://vanessacleary.github.io/vanessacleary-Ms1-2021/)
 
@@ -254,10 +254,17 @@ The website was created using Bootstraps 4.6 grid system.</p>
    * I used Google lighthouse to test the performance of my site.
 
 * [The W3C Markup Validation Service](https://validator.w3.org/)
+   * I used this validation tool to check my HMTL for errors.
 
 * [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+   * I used this validation tool to check my CSS for errors.
 
 * [Color contrast](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/)
+   * I used this tool to compare colors for the website.
+
+* [Autoprefixer CSS online](https://autoprefixer.github.io/)
+   * I used this to check to this Autoprefixer online to parses the CSS and add vendor prefixes to CSS. It is recommended by Google and used by Twitter and Taobao.
+    
 
 ## Testing
 
@@ -270,6 +277,8 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
   * The Login page passed with 0 errors
 * W3C CSS Validator - [Results](/docs/testing/css-validator.JPG)
   * The CSS passed with 0 errors
+  * I also put the CSS through  [Autoprefixer CSS online](https://autoprefixer.github.io/) to improve the CSS and add vendor prefixes. The CSS validation came back again with 0 errors but had some warnings. I was assured by that the CSS was correct by slack team members & mentors and to document the warnings.
+     The errors can be found [here](/docs/testing/warnings.JPG)
 
 ### Performance
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
@@ -292,10 +301,12 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
 
 ### Known Issues and Bugs
 
-1. The gallery images squash on iPad screens with screen size '768x1024' when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. 
-2. On large screens the middle gallery image is cut off at the end. 
+1. The gallery images squash on iPad screens with screen size '768x1024' when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. I tired to resolve this using many different ways and I could not fix the issue in tim
+1. On large screens the middle gallery image is cut off at the end. 
 1. The gallery images do not shrink when the 'zoom' is reduced.
 1. The Nav bar was causing an issue. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading - this has since been fixed. 
+1. The collapasable Nav menu for mobile did not collapse when a link was clicked on, this issue was resolved by adding data-toggle and data-targets to each nav link however whent he Nav bar is clicked on for desktop it not flashes like it is collapsing like the menu, it is minor but I would look to improve this in the future. 
+1. 
 
 ## Deployment
 
@@ -336,13 +347,15 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
   * [Gallery 8](https://unsplash.com/@sonniehiles): Sonnie Hiles
   * [Gallery 7](https://unsplash.com/@zenbear): Zen Bear Yoga
   
-
 * [Google](https://www.google.com/imghp?hl=en)
   * [Meditation](http://kyleighroessner.skyword.com/external/sampleimages/190255/image1000w.jpg)
   * [Person 1](https://yogamedicine.com/wp-content/uploads/Jenni-Headshot-scaled-e1577469670247.jpg)
   * [Person 2](https://sarahpowersinsightyoga.com/wp-content/uploads/2019/08/SarahPowers-headshot-07.jpeg)
   * [Person 3](https://sarahpowersinsightyoga.com/wp-content/uploads/2020/12/TyPowers-headshot-1024x841.jpg)
   * [Person 4](https://www.jasonyoga.com/wp-content/uploads/2021-headshot-1-400x400.png)
+
+* Testimonial carousel
+  * [Source](https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=testimonial-carousel)
 
 ## Acknowledgements
 * Code Institute for providing endless help and resources to get me this far

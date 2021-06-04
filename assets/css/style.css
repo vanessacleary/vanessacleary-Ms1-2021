@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
 html {
-	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
   }
   
   body {
-	margin: 0;
-	font-family: 'Nunito', sans-serif;
-	font-size: 1rem;
-	font-weight: 500;
-	line-height: 1.5;
-	color: #515d5f;
-	background-color: #fff;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #515d5f;
+    background-color: #fff;
   }
 
   h2 {
-	  font-size: 1.8rem;
+      font-size: 1.8rem;
   }
 
   /*-----------------------Nav bar */
@@ -30,12 +30,12 @@ html {
   }
   
   .navbar-brand {
-	  font-size: 1.7rem;
-	  font-weight: 600;
-	  }
+      font-size: 1.7rem;
+      font-weight: 600;
+      }
   
   .navbar-brand:hover {
-	  color: #F9AB55 !important;
+      color: #F9AB55 !important;
   }
   
   .nav-link {
@@ -51,7 +51,7 @@ html {
   }
  
  .navbar-toggler {
-	background-color: #fff;
+    background-color: #fff;
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
@@ -60,34 +60,32 @@ html {
 } 
 
 .navbar-light {
-	background-color: #fff !important;
+    background-color: #fff !important;
 }
 
-/* .navsize {
-    padding-top: 100px;
-    margin-top: -100px;
-} */
-
 .dropdown-item {
-	color:#D05353;	
+    color:#D05353;  
 }
 
   /*-----------------------Rounded images */
   .image-fit-cover {
-	  object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
   }
   
   /*-----------------------Jumbotron  */
   
   #home-section {
-	min-height: 60vh;
-	width: 100%;
-	background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('../images/meditation.jpg') no-repeat center center;
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: cover;
-	scroll-margin-top: 2em;
+    min-height: 60vh;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0.5,0.5,0.5,0.5)), to(rgba(0.5,0.5,0.5,0.5))), url('../images/meditation.jpg') no-repeat center center;
+    background: -o-linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('../images/meditation.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('../images/meditation.jpg') no-repeat center center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    scroll-margin-top: 2em;
   }
   
    .jumbotron-custom {
@@ -96,357 +94,339 @@ html {
   }
   
   .jumbotron-content {
-	background-color: transparent;
-	margin-top: 2rem;
-	-ms-flex-line-pack: center;
-	align-content: center;
+    background-color: transparent;
+    margin-top: 2rem;
+    -ms-flex-line-pack: center;
+    align-content: center;
   }
   
   .jumbotron-content h1 {
-	font-size: 2rem;
+    font-size: 2rem;
   }
   
   .jumbotron-button {
-	margin-top: 30px;
-	border: transparent;
+    margin-top: 30px;
+    border: transparent;
   }
   
-  /*-----------------------colors, headings, buttons, spacing, divider */
+  /*----------------------- headings */
 
   .section-heading-red {
-	line-height: 1rem;
-	color:#D05353;
+    line-height: 1rem;
+    color:#D05353;
 }
 
 .section-heading-white {
-	line-height: 1rem;
-	color:#fff;
+    line-height: 1rem; 
+    color:#fff;
 }
 /*-----------------------buttons */
   .btn-main-pink {
-	  background-color: #D05353;
-	  border-color: transparent;
-	  color: #fff;
-	  text-transform: uppercase;
-	  letter-spacing: 2px;
-	  padding: 15px 30px;
-	  font-weight: 600;
-	  }
+      background-color: #D05353;
+      border-color: transparent;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 15px 30px;
+      font-weight: 600;
+      }
 
-	.btn-main-pink:hover {
-	  background-color: #F9AB55;
-	  border-color: transparent;
-	  color: #D05353;
-	  }
+    .btn-main-pink:hover {
+      background-color: #F9AB55;
+      border-color: transparent;
+      color: #D05353;
+      }
 
-	  .btn-footer {
-		background-color: #fff;
-		border-color: transparent;
-		color: #D05353;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		padding: 10px 20px;
-		font-weight: 600;
-	}
-	
-	.btn-footer:hover {
-		background-color: #F9AB55;
-		border-color: transparent;
-		color: #D05353;
-	} 
+      .btn-footer {
+        background-color: #fff;
+        border-color: transparent;
+        color: #D05353;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        font-weight: 600;
+    }
+    
+    .btn-footer:hover {
+        background-color: #F9AB55;
+        border-color: transparent;
+        color: #D05353;
+    } 
 
 /*-----------------------dividers */
-	  .divider-section-pink {
-	  width: 20%;               
-	  background: #D05353;
-	  height: 1px;
-	  }
-	  
-	  .divider-section-white {
-	  width: 20%;               
-	  background: #fff;
-	  height: 1px;
-	  }
+      .divider-section-pink {
+      width: 20%;               
+      background: #D05353;
+      height: 1px;
+      }
+      
+      .divider-section-white {
+      width: 20%;               
+      background: #fff;
+      height: 1px;
+      }
   
-	  .footer-divider {
-	  width: 100%;
-	  background: #fff;
-	  height: 1px;
-	  }
+      .footer-divider {
+      width: 100%;
+      background: #fff;
+      height: 1px;
+      }
 
-	  .divider-section-log-in {
-		width:100%;
-		background: #D05353;
-		height: 1px;
-	}
+      .divider-section-log-in {
+        width:100%;
+        background: #D05353;
+        height: 1px;
+    }
 
-/*----------------------- about section */
-	  
-	#about-section {
-  	line-height: 1.4;
-  	scroll-margin-top: 4.5em;
+/*-----------------------about section */
+      
+    #about-section {
+   
+    scroll-margin-top: 4.5em;
   } 
   
-/*-----------------------how it works section */
+/*-----------------------join section */
   
-  #works-section {
+  #join-section {
    background-color: #D05353;
-   line-height: 1.4;
    color: #fff;
-   scroll-margin-top: 2em;
+   scroll-margin-top: 3em;
   }
   
-  .works-heading{
-  font-weight: 400;
-  line-height: 1.4;
-  position: relative;
-  }
-
   ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   }  
  
-  /*----------------------- Meet the team section */
+  /*-----------------------Meet the team section */
   
   #team-section {
-	scroll-margin-top: 2em;
-	line-height: 1.4;
+    scroll-margin-top: 3em;
   }
     .team-member {
-	  margin-bottom: 3rem;
-	  text-align: center;
-	}
-	.team-member img {
-	  width: 14rem;
-	  height: 14rem;
-	  border: 0.5rem solid #D05353;
-	}
-	.team-member h4 {
-	  margin-top: 2rem;
-	  margin-bottom: 0;
-	}
-	.img-brand {
-	  height: 2.75rem;
-	} 
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    .team-member img {
+      width: 14rem;
+      height: 14rem;
+      border: 0.5rem solid #D05353;
+    }
+    .team-member h4 {
+      margin-top: 2rem;
+      margin-bottom: 0;
+    }
+    .img-brand {
+      height: 2.75rem;
+    } 
   
   
   /*-----------------------Testinomials carousel */
   #testimonial-section {
-	  background-color: #D05353;
-	  line-height: 1.4;
-	  color:#fff;
-	  scroll-margin-top: 2em;
+      background-color: #D05353;
+      color:#fff;
+      scroll-margin-top: 3em;
   }
   
   .col-center {
-	  margin: 0 auto;
-	  float: none !important;
+      margin: 0 auto;
+      float: none !important;
   }
   
   .carousel .carousel-item {
-	  color:#fff;
-	  text-align: center;
-	  overflow: hidden;
-	  min-height: 290px;
+      color:#fff;
+      text-align: center;
+      overflow: hidden;
+      min-height: 290px;
   }
   .carousel .carousel-item .img-box {
-	  width: 14rem;
-	  height: 14rem;
-	  margin: 0 auto;
-	  border: 0.5rem solid #fff;
-	  border-radius: 50%;
+      width: 14rem;
+      height: 14rem;
+      margin: 0 auto;
+      border: 0.5rem solid #fff;
+      border-radius: 50%;
   }
   
   .carousel .img-box img {
-	  width: 100%;
-	  height: 100%;
-	  display: block;
-	  border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 50%;
   }
   
   .carousel .testimonial {
-	  padding: 30px 0 10px;
+      padding: 30px 0 10px;
   }
-  .carousel .overview {	
-	  font-style: italic;
+  .carousel .overview { 
+      font-style: italic;
   }
   .carousel .overview b {
-	  text-transform: uppercase;
+      text-transform: uppercase;
   }
   .carousel-control-prev, .carousel-control-next {
-	  width: 40px;
-	  height: 40px;
-	  margin-top: -20px;
-	  top: 50%;
-	  background: none;
+      width: 40px;
+      height: 40px;
+      margin-top: -20px;
+      top: 50%;
+      background: none;
   }
   .carousel-control-prev i, .carousel-control-next i {
-	  font-size: 2.5rem;
-	  position: absolute;
-	  display: inline-block;
-	  color:#fff;
+      font-size: 2.5rem;
+      position: absolute;
+      display: inline-block;
+      color:#fff;
   }
   .carousel-indicators {
-	  bottom: -40px;
+      bottom: -40px;
   }
   .carousel-indicators li, .carousel-indicators li.active {
-	  width: 12px;
-	  height: 12px;
-	  margin: 1px 3px;
-	  border-radius: 50%;
-	  border: none;
+      width: 12px;
+      height: 12px;
+      margin: 1px 3px;
+      border-radius: 50%;
+      border: none;
   }
-  .carousel-indicators li {	
-	  background: #fff;
-	  border-color: transparent;
-	  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+.carousel-indicators li { 
+      background: #fff;
+      border-color: transparent;
+      -webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+              box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
   }
-   .carousel-indicators li.active {	
-	  background: #fff;		
-	  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+   .carousel-indicators li.active { 
+      background: #fff;     
+      -webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);     
+              box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
   }
-   
+
  /*-----------------------Gallery */
   
  #gallery-section {
-	min-height: 20em;
+    min-height: 20em;
   }
 
   #gallery-section img {
-	object-fit: cover;
-	max-width:15em;
-	min-height: 20em;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width:15em;
+    min-height: 20em;
    }
 
   #gallery-section .gallery-col {
-	background-size: cover;
-	height: 40em;
-	border: white;
-	border-style: solid;
+    background-size: cover;
+    height: 40em;
+    border: white;
+    border-style: solid;
 }
 
   #gallery-section #image-1 {
-	background-image: url('../images/gallery-4.jpg'); 
+    background-image: url('../images/gallery-4.jpg'); 
 }
   #gallery-section #image-2 {
-	background-image: url('../images/gallery-8.JPG'); 	
+    background-image: url('../images/gallery-8.JPG');   
 }
-
 
   #gallery-section #image-3 {
-	background-image: url('../images/gallery-7.JPG'); 
+    background-image: url('../images/gallery-7.JPG'); 
 
 }
-
 
   /*-----------------------footer */
   
   footer {
-	background-color: #D05353;
-	color: #fff;
-	line-height: 1.4;
-	}
+    background-color: #D05353;
+    color: #fff;
+    }
 
   .footer-headings{
-	line-height: 1rem;
+    line-height: 1rem;
   }
-
 
   #email-address {
   color: #fff; 
 }
 
   #phone-number-ire {
-	  color: #fff;
+      color: #fff;
   }
   #phone-number {
-	color: #fff;
+    color: #fff;
 }
 
 .footer-links {
-	color: #fff;
+    color: #fff;
+}
+
+.footer-links:hover{
+	color: #F9AB55;
 }
 
   /*-----------------------social  */
-	.social-networks {
-	  text-align: center;
-	}
-	
-	.social-networks > li {
-	  display: inline;
-	}
-	
-	.social-networks i {
-	  font-size: 140%;
-	  margin: 1%;
-	  padding: 3%; 
-	  color: #fff;
-	}
-	.social-networks i:hover{
-	  color: #F2B880;
-	}
+    .social-networks {
+      text-align: center;
+    }
+    
+    .social-networks > li {
+      display: inline;
+    }
+    
+    .social-networks i {
+      font-size: 140%;
+      margin: 1%;
+      padding: 3%; 
+      color: #fff;
+    }
+    .social-networks i:hover{
+      color: #F2B880;
+    }
   
    /*-----------------------login form */
   
    #log-in-form {
-	scroll-margin-top: 4em;
+    scroll-margin-top: 4em;
    }
    #register-form {
-	scroll-margin-top: 4em;  
+    scroll-margin-top: 4em;  
    }
   
- 
-
   /*-----------------------alert */
   .alert {
   background-color: #D05353;
   }
   
   .alert-heading {
-	  color: #fff;
-	  }
+      color: #fff;
+      }
   
    .alert p {
-	   color: #fff;
+       color: #fff;
    }
   
   .free-trail-alert {
-	  text-align: center;
+      text-align: center;
   }
 
 /*-----------------------404 page */
 
 #error-section {
-	min-height: 85vh;
-	width: 100%;
-	background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('../images/meditation.jpg') no-repeat center center;
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: cover;
-	scroll-margin-top: 2em;
+    min-height: 85vh;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0.5,0.5,0.5,0.5)), to(rgba(0.5,0.5,0.5,0.5))), url('../images/meditation.jpg') no-repeat center center;
+    background: -o-linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('../images/meditation.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url('../images/meditation.jpg') no-repeat center center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    scroll-margin-top: 2em;
 }
 
 .back-to-home {
-	color: #fff;
+    color: #fff;
 }
 
-/*-----------------------Media querys */
-
-/*-----------------------Gallery img does not show on mobile */
-  /* @media (min-width: 576px) {
-  #image-3 { display:none;
- }
-}  */
-
- /* @media (max-width: 768px) {
-	#image-3 { display:none;
-   }
-  }  */
-
+/*------------------------Media Queries */
  /*-----------------------Centers the login & Registration headings on mobile */ 
 @media only screen and (max-width: 576px) {
-	.log-in-center { text-align: center; }
+    .log-in-center { text-align: center; }
 }
