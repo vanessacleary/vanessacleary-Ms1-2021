@@ -88,9 +88,10 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 **Colors**
 
 * I created a colour scheme of Indian red and White with shades of apricot to for clickable elements on the website. I chose to keep the website crisp and clean with block colors. As the website is a membership service I wanted to ensure key information was not missed and there was very little distractions on the website. 
-      * Red has over 50 color shades and is color that symbolizes passion, the heat of energy, passion and love to name a few.
-      * Yoga & Meditation is part of peoples lifestyle filled with passion, engery and love so after the the colour change I was delighted to use red for the accessability it brought to the website and meaning of color aligns with the brand. 
-      * The color white symbolizes White purity cleanliness, freshness, and simplicity. It also associated with a new beginning or a fresh start whic aligns with what new concept Balance is offering for with online classes.
+   * Red has over 50 color shades and is color that symbolizes passion, the heat of energy, passion and love to name a few.
+   * Yoga & Meditation is part of peoples lifestyle filled with passion, engery and love so after the the colour change I was delighted to use red for the accessability it brought to the website and meaning of color aligns with the brand. 
+   * The color white symbolizes White purity cleanliness, freshness, and simplicity. It also associated with a new beginning or a fresh start whic aligns with what new concept Balance is offering for with online classes.
+   *  Aricot is a type of orange color which is associated with energy, cheerfulness, activity, fire and warmth. It was very complimentary with the indian red and white. 
 
 **Typography** 
 * I chose 'Nunito' from Google Fonts. I chose this font because:
@@ -349,7 +350,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
   * [Gallery 8](https://unsplash.com/@sonniehiles): Sonnie Hiles
   * [Gallery 7](https://unsplash.com/@zenbear): Zen Bear Yoga
   
-* [Google](https://www.google.com/imghp?hl=en)
+* [Google images](https://www.google.com/imghp?hl=en)
   * [Meditation](http://kyleighroessner.skyword.com/external/sampleimages/190255/image1000w.jpg)
   * [Person 1](https://yogamedicine.com/wp-content/uploads/Jenni-Headshot-scaled-e1577469670247.jpg)
   * [Person 2](https://sarahpowersinsightyoga.com/wp-content/uploads/2019/08/SarahPowers-headshot-07.jpeg)
@@ -360,7 +361,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
   * [Source](https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=testimonial-carousel)
 
 ## Acknowledgements
-* Code Institute for providing endless help and resources to get me this far
+* Code Institute for providing endless help and resources to get me this far.
 * My mentor Reuben Ferrante for the help and patience to guide me through my first project.
 * The Mini Feb 2021 group, wider slack community and the tutors for all the help support and feedback for the last couple of weeks. 
 * Friends and Family who have taken their time to offer advice and feedback during the development of my project.
