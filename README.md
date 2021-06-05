@@ -55,7 +55,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find information I want.
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 * As a First Time Visitor, I want to easily see the price for the membership. 
-* As a First Time Visitor, I want easily know about the organisation, how it works and how to sign up.
+* As a First Time Visitor, I want easily know about the organisation, how to join and how to sign up.
 * As a First Time Visitor, I want to look for testimonials to understand what their memebers think of them and see if they are trusted.
 * As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 *  As a First Time Visitor, I want to easily be able to sign up for a free trial to get an idea of what the membership is like.
@@ -64,7 +64,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 **A Returning Visitor Goals:**
 *  As a returning visitor, I want to easily be reminded what Balance is about and how it works.
 *  As a returning visitor, I want to easily be able to register.
-*  As a returning visitor, I want to easily be able to contact Balance for any questions or queries I may have.
+*  As a returning visitor, I want to easily be able to contact Balance with any questions or queries I may have.
 *  As a returning user, I want to easily see testimonials.
 
 **A Member Returning Goals:**
@@ -89,6 +89,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
 * I created a colour scheme of Indian red and White with shades of apricot to for clickable elements on the website. I chose to keep the website crisp and clean with block colors. As the website is a membership service I wanted to ensure key information was not missed and there was very little distractions on the website. 
       * Red has over 50 color shades and is color that symbolizes passion, the heat of energy, passion and love to name a few.
       * Yoga & Meditation is part of peoples lifestyle filled with passion, engery and love so after the the colour change I was delighted to use red for the accessability it brought to the website and meaning of color aligns with the brand. 
+      * The color white symbolizes White purity cleanliness, freshness, and simplicity. It also associated with a new beginning or a fresh start whic aligns with what new concept Balance is offering for with online classes.
 
 **Typography** 
 * I chose 'Nunito' from Google Fonts. I chose this font because:
@@ -96,7 +97,7 @@ Balance was created as a direct response to the Covid-19 pandemic when all in pe
   * It's also a sans-serif font which is more accessible for people with dyslexia. Sans-serif is the back-up font if Nunito fails.
 
 **Imagery** 
-* All images on the website are of professional quality and fully licensed. All images were taken from [Unsplash](https://unsplash.com/) or [Google images](https://images.google.com/) Please see 'Credits' section for more information on licenses.
+* All images on the website are of professional quality and fully licensed. All images were taken from [Unsplash](https://unsplash.com/) or [Google images](https://images.google.com/) Please see ['Credits](#Credits) section for more information on licenses.
 
 ## Features
 
@@ -118,14 +119,14 @@ The website was created using Bootstraps 4.6 grid system.</p>
 4. The **‘Meet the Team’** section is an essential feature to draw the visitor's attention to the instructors, its purpose is to let visitors know who will be hosting the classes and that they are real people behind the virtual class. 
 5. The **‘Testimonial’** section is one of the most important features. Reviews and Testimonials are growing more and more important as consumers are more savvy than ever when it comes to spending money and want to know they are receiving a quality product or service. 
 6. The **'gallery'** was added for aesthetic purposes and demonstrates the yoga moves that are included in the classes
-7. The **'footer'** contains essential ‘Contact’ information and a ‘Newsletter sign up’ in order for Balance to update recipients and further market the brand. 
-8. The **'Login and Register'** feature was created to provide users witha clear path on how to sign in to the website to begin their Balance journey. 
+7. The **'footer'** contains essential ‘Contact’ & 'Social media' information and a ‘Newsletter sign up’ in order for Balance to update recipients and further market the brand. 
+8. The **'Login and Register'** feature was created to provide users witha clear path on how to sign in to the website to begin or continue their Balance journey. 
 
 **Section 1: The hero image with jumbotron and CTA:**
 * I chose a less striking image for the hero image as I wanted the Balance concept, price and free trail CTA to be the first thing visitors see. I had tested other images and they took away from the key information. The current image was still distracting however adding a shadowed overlay helped mute out the image and draw more attention to the key information and CTA. 
 
   * The follwoing user stories addresses this section 
-    * *As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.*
+   * *As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.*
     * *As a First Time Visitor, I want to easily see the price.*
     * *As a First Time Visitor, I want to easily be able to sign up for a free trial to get an idea of what the membership is like.*
     * *As a returning visitor, I want to easily be reminded what Balance is about and how it works.*
@@ -136,13 +137,13 @@ The website was created using Bootstraps 4.6 grid system.</p>
 * The ‘About’ section is an information section, detailing how Balance was formed, the target audience, the different styles of Yoga and Meditation available and direction Balance is going in. The ‘Here what our members have to say’ button is an essential CTA to draw visitors' attention to how much current members love Balance. The copy was created by me.
 
   * The follwoing user stories addresses this section 
-      * *As a First Time Visitor, I want easily know find out about the organisation, how it works and how to sign up.*
+   * *As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.*
 
 ![About section](/docs/features/about-section.JPG)
 
-**Section 3: How it works:**
+**Section 3: Join :**
 
-* The **‘How it Works Section’** states clearly:
+* The **‘Join Section’** states clearly:
   * How to join
   * What is included in a membership
   * Information on classes
@@ -150,7 +151,7 @@ The website was created using Bootstraps 4.6 grid system.</p>
   * The copy was written by me. 
 
     * The follwoing user stories addresses this section 
-      * *As a First Time Visitor, I want easily know find out about the organisation, how it works and how to sign up.*
+      * *As a First Time Visitor, I want easily know find out about the organisation, how to join and how to sign up.*
 
 ![How it works section](/docs/features/how-it-works-section.JPG)
 
@@ -160,7 +161,7 @@ The website was created using Bootstraps 4.6 grid system.</p>
 ![Meet the team section](/docs/features/team-section.JPG)
 
 **Section 5: Testimonials**
-* This section is to inform visitors of how current members feel about Balance and help consumers make an informed decision. The carousel was one feature I wanted  to incorporate on the website to bring the website to life with some movement. 
+* This section is to inform visitors of how current members feel about Balance and help consumers make an informed decision. The carousel was one feature I wanted to incorporate on the website to bring the website to life with some movement. 
 
    * The follwoing user stories address this section 
       * *As a First Time Visitor, I want to look for testimonials to understand what their memebers think of them and see if they are trusted.*
@@ -204,8 +205,9 @@ The website was created using Bootstraps 4.6 grid system.</p>
 **As I progress with my studies I would like add:**
 
 1. Confirmation emails when a user registers to Balance. 
-2. Confirmation emails when a user signs up to the Balance newsletter.
-3. A chat bot for instant chat to answer any queries, give additional information or to chat to a team member.
+1. Confirmation emails when a user signs up to the Balance newsletter.
+1. A chat bot for instant chat to answer any queries, give additional information or to chat to a team member.
+1. Videos with snippets of online yoga class. 
 
 ## Technologies used
 
@@ -277,16 +279,16 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
   * The Login page passed with 0 errors
 * W3C CSS Validator - [Results](/docs/testing/css-validator.JPG)
   * The CSS passed with 0 errors
-  * I also put the CSS through  [Autoprefixer CSS online](https://autoprefixer.github.io/) to improve the CSS and add vendor prefixes. The CSS validation came back again with 0 errors but had some warnings. I was assured by that the CSS was correct by slack team members & mentors and to document the warnings.
-     The errors can be found [here](/docs/testing/warnings.JPG)
-
+  * I also put the CSS through  [Autoprefixer CSS online](https://autoprefixer.github.io/) to improve the CSS and add vendor prefixes. The CSS validation came back again with 0 errors but had some warnings. I was assured the CSS was correct by slack team members & mentors and to document the warnings.
+    * The warnings can be found [here](/docs/testing/warnings.JPG)
+ 
 ### Performance
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
   * Click on the page name to see the result for desktop: [Home](docs/testing/desktop-lighthouse-home.JPG) | [Login](docs/testing/desktop-lighthouse-login.JPG)
   * Click on the page name to see the result for mobile: [Home](docs/testing/mobile-lighthouse-home.JPG) | [Login](docs/testing/mobile-lighthouse-login.JPG)
 
 ### Responsivness 
-* The website was tested using  desk the 'inspect' option availabale on Google and Internet explorer for differnt screen sizes and    mobile. The following devices showed zero errors with responsiveness or format. 
+* The website was tested using  desk the 'inspect' option availabale on Google and Internet explorer for differnt screen sizes and mobile. The following devices showed zero errors with responsiveness or format. 
 * Devices:
   * Samsung Galaxy S20 
   * iPhone X
@@ -297,24 +299,23 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
 
 ### Accessability 
 
-* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) gave the website a score of 96% accessability for both mobile and desktop. 4% was lost for *'Background and foreground colors do not have a sufficient contrast ratio.'* This was flagged earlier on in the project and changes were made to increase the core to 96%. Futher updates to the project would look to improve the website accessability and gain a score of 100%.
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) gave the website a score of 96% accessability for both mobile and desktop. 4% was lost for *'Background and foreground colors do not have a sufficient contrast ratio.'* This was flagged earlier on in the project and changes were made to increase the score to 96%. Futher updates to the project would look to improve the website accessability and gain a score of 100%.
 
 ### Known Issues and Bugs
 
-1. The gallery images squash on iPad screens with screen size '768x1024' when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. I tired to resolve this using many different ways and I could not fix the issue in tim
+1. The gallery images squash on iPad screens with screen size '768x1024' when tested on google dev tools. I was uable to test this on an actual iPad. The issue does not occur on iPad pro when tested using Google dev tools. I tired to resolve this using many different media queries, display options and vendor prefixes and I could not fix the issue in time.
 1. On large screens the middle gallery image is cut off at the end. 
 1. The gallery images do not shrink when the 'zoom' is reduced.
-1. The Nav bar was causing an issue. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading - this has since been fixed. 
-1. The collapasable Nav menu for mobile did not collapse when a link was clicked on, this issue was resolved by adding data-toggle and data-targets to each nav link however whent he Nav bar is clicked on for desktop it not flashes like it is collapsing like the menu, it is minor but I would look to improve this in the future. 
-1. 
+1. The Nav bar was causing an issue on desktop and mobile. When a Navlink was click it would navigate to the correct section however the Navbar would cover the section heading which I have since learned is common with single page websites - this has since been fixed. 
+1. The collapasable Nav menu for mobile did not collapse when a link was clicked on, this issue was resolved by adding data-toggle and data-targets to each nav link however when the Nav bar is clicked on for desktop it flashes like it is collapsing like the menu  shoule, I would look to improve this in the future. 
 
 ## Deployment
 
 **Creating Repository**
 1. I created the repository using the following steps:
-2. I logged into my GitHub account and clicking the green button near the top left of the page displaying the text NEW.
+2. I logged into my GitHub account and clicked the green button near the top left of the page displaying the text 'NEW'.
 3. This took me to a page with the option to create a new repository. Under the repository template I clicked on the code institute template. 
-4. I chose a name for the repository and then clicked the create repository button.
+4. I chose a name for my repository and then clicked the create repository button.
 5. I opened the new repository and clicked the green gitpod button to create a new workspace in Git Pod for writing and editing my code to develop the website.
 
 ### GitHub pages
@@ -322,10 +323,10 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Ser
 **My project was deployed to GitHub pages using the following steps:**
 
 1. I logged in to my GitHub account and opened the relevant repository.
-2. I clicked on the settings button
-3. In settings scroll down to the GitHub 'pages' tab.
-4. Under source I clicked the dropdown button labelled None and selected Master Branch.
-5. The page will automatically refresh itself and after a few moments the published site link will be available to click on the GitHub Page section.
+2. I clicked on the settings button.
+3. In settings I scrolled down to the GitHub 'pages' tab.
+4. Under source I clicked the dropdown button labelled 'None' and selected Master Branch.
+5. This then provided mw with the link to the website.
 
 ### Forking the GitHub Repository
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/vanessacleary/vanessacleary-Ms1-2021)
