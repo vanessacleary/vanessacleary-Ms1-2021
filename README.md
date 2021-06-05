@@ -27,6 +27,7 @@
     * [Performance](#Performance)
     * [Responsivness](#Responsivness)
     * [Accessability](#Accessability)
+    * [Known Issues and Bugs](Known-Issues-and-Bugs)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
 * [Awknowledgments](#Awknowledgments)
@@ -153,7 +154,7 @@ The website was created using Bootstraps 4.6 grid system.</p>
     * The follwoing user stories addresses this section 
       * *As a First Time Visitor, I want easily know find out about the organisation, how to join and how to sign up.*
 
-![How it works section](/docs/features/how-it-works-section.JPG)
+![How it works section](/docs/features/join-section.JPG)
 
 **Section 4: Meet the Team:**
 * Having the team on the home page is essential for visitors to know who will be guiding their Yoga and Meditation practice. It also states the combined year of teaching experience and information on how to login and where to view the class information. 
